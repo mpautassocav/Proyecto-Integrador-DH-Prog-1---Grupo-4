@@ -1,7 +1,20 @@
 body{
-    background-color: rgb(241, 22, 22);
+    background-color: rgb(27, 38, 44);
     margin: 0px;
 }
+
+.container {
+
+    margin: 0px auto;
+    margin-left: 65px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;  
+}
+
+
 .header{
     height: 15%;
     padding-top: 2%;
@@ -28,7 +41,7 @@ body{
     grid-template-columns: 3fr 1fr;
     background-color: #518594;
     width: 100%;
-    margin-top: 400px;
+    margin-top: 234px;
     padding-right: 50px;
     color: rgb(204, 204, 204);
     font-family: 'Open Sans', sans-serif;
@@ -42,7 +55,8 @@ body{
 .logodeez{
     margin-top: 8px;
 }
-.divbusqueda{
+
+.divbusqueda {
     margin: 0px;
     height: 23px;
     padding-bottom: 2%;
@@ -50,16 +64,18 @@ body{
     background-color: #102c34;
     display: grid;
     grid-column: 1fr;
+    
 }
 .busqueda2{
     display: grid;
     grid-template-columns: 1fr 9fr;
     height: 65%;
-    margin: 0% 20% 5% 20%;
+    margin: 0% 8% 5% 25%;
     border-radius: 200px;
     background-color: white;
 
 }
+
 .lupa{
     margin-top: auto;
     margin-bottom: auto;
@@ -72,9 +88,20 @@ body{
     font-family: 'Raleway', sans-serif;
 }
 
+#ranking_playlists {
+    color: rgb(204, 204, 204);
+    margin-top: 100px;
+}
 
+#ranking_artists {
+    color: rgb(204, 204, 204);
+    margin-top: 100px;
+}
 
-
+#ranking_tracks {
+    color: rgb(204, 204, 204);
+    margin-top: 100px;
+}
 
 
 @media (min-width: 600px){
