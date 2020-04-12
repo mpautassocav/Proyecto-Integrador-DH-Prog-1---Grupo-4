@@ -1,25 +1,28 @@
 body{
     background-color: rgb(241, 22, 22);
+    margin: 0px;
 }
 .header{
-    margin-top: -10px;
-    margin-left: -10px;
     height: 15%;
-    position: fixed;
+    padding-top: 2%;
+    padding-bottom: 2%;
     background-color: #102c34;
-    padding-right: 5px;
+    padding-right: 50px;
     width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1.5fr 1.5fr 1.5fr;
 }
 .logo{
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 10%;
 }
-.botones{
-    margin-top: 5px;
-    display: flex;
-    justify-content: space-around;
+#botones{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 40%;
 }
+
 .footer{
     display: grid;
     grid-template-columns: 3fr 1fr;
@@ -39,8 +42,35 @@ body{
 .logodeez{
     margin-top: 8px;
 }
+.divbusqueda{
+    margin: 0px;
+    height: 23px;
+    padding-bottom: 2%;
+    width: 100%;
+    background-color: #102c34;
+    display: grid;
+    grid-column: 1fr;
+}
+.busqueda2{
+    display: grid;
+    grid-template-columns: 1fr 9fr;
+    height: 65%;
+    margin: 0% 20% 5% 20%;
+    border-radius: 200px;
+    background-color: white;
 
-
+}
+.lupa{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 30%;
+}
+.busqueda{
+    margin: 0% 20% 0% 5%;
+    border-width: 0px;
+    border-radius: 200px;
+    font-family: 'Raleway', sans-serif;
+}
 
 
 
