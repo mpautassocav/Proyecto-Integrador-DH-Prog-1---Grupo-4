@@ -1,0 +1,52 @@
+body{
+    background-color: red;
+}
+.header{
+    margin-top: -10px;
+    margin-left: -10px;
+    height: 15%;
+    position: fixed;
+    background-color: #102c34;
+    padding-right: 5px;
+    width: 100%;
+}
+.logo{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.botones{
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-around;
+}
+.footer{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    background-color: #518594;
+    width: 100%;
+    margin-top: 400px;
+    padding-right: 50px;
+    color: rgb(204, 204, 204);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 10px;
+}
+#name{
+    margin-top: 3px;
+    margin-bottom: 3px;
+    margin-left: 8px;
+}
+.logodeez{
+    margin-top: 8px;
+}
+
+
+
+
+
+
+
+
+@media (min-width: 600px){
+    body{background-color: blue;}
+}
