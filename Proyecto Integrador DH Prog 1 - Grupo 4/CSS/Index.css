@@ -1,6 +1,7 @@
 body{
     background-color: rgb(27, 38, 44);
     margin: 0px;
+    width: 100%;
 }
 
 .container {
@@ -33,7 +34,7 @@ body{
 #botones{
     margin-top: auto;
     margin-bottom: auto;
-    margin-left: 40%;
+    margin-left: 60%;
 }
 
 .footer{
@@ -60,6 +61,7 @@ body{
     margin: 0px;
     height: 23px;
     padding-bottom: 2%;
+    padding-right: 50px;
     width: 100%;
     background-color: #102c34;
     display: grid;
@@ -70,7 +72,7 @@ body{
     display: grid;
     grid-template-columns: 1fr 9fr;
     height: 65%;
-    margin: 0% 8% 5% 25%;
+    margin: 0% 8% 5% 20%;
     border-radius: 200px;
     background-color: white;
 
