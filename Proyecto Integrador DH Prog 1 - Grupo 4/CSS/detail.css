@@ -1,0 +1,103 @@
+body{
+    background-color: rgb(27, 38, 44);
+    margin: 0px;
+    width: 100%;
+}
+.container {
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;  
+}
+.header{
+    box-sizing: border-box;
+    background-color: #102c34;
+    width: 100%;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+.logodiv{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.logo{
+    margin-left: auto;
+    margin-right: auto;
+}
+.botonesdiv{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+#botones{
+    margin: auto;
+}
+.footer{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    background-color: #518594;
+    width: 100%;
+    margin-top: 390px;
+    color: rgb(204, 204, 204);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 10px;
+}
+#name{
+    margin-top: 3px;
+    margin-bottom: 3px;
+    margin-left: 8px;
+}
+.logodeez{
+    margin-top: 8px;
+}
+.divbusqueda {
+    height: 23px;
+    width: 100%;
+    background-color: #102c34;
+    display: grid;
+    padding-bottom: 5px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+}
+.busqueda2{
+    display: grid;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    grid-template-columns: 1fr 9fr;
+    border-radius: 200px;
+    background-color: white;
+}
+.lupa{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 30%;
+}
+.busqueda{
+    margin: 0% 20% 0% 5%;
+    border-width: 0px;
+    border-radius: 200px;
+    font-family: 'Raleway', sans-serif;
+}
+
+#ranking_tracks {
+    color: rgb(204, 204, 204);
+    margin-top: 100px;
+}
+
+#track {
+    color: rgb(204, 204, 204);
+}
+
+#artist {
+    color: rgb(204, 204, 204);
+}
+
+#album {
+    color: rgb(204, 204, 204);
+}
+
+@media (min-width: 600px){
+    body{background-color: blue;}
+}
