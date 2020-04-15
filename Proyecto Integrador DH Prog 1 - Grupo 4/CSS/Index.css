@@ -80,6 +80,15 @@ body{
     border-radius: 200px;
     font-family: 'Raleway', sans-serif;
 }
+.divm{
+    height: 420px;
+    box-sizing: border-box;
+}
+.marshallf{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
 #ranking_playlists {
     color: rgb(204, 204, 204);
     margin-top: 100px;
