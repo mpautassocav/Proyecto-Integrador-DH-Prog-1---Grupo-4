@@ -5,6 +5,7 @@ body{
 }
 .container {
     margin: auto;
+    margin-top: 210px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -100,6 +101,132 @@ body{
 #ranking_tracks {
     color: rgb(204, 204, 204);
     margin-top: 100px;
+}
+#fras{
+    height: 170px;
+    margin-top: -315px;
+    font-size: 30px;
+    color: white;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.autor{
+    font-size: 18px;
+    text-decoration: overline;
+}
+.cli{
+    font-size: 9px;
+    text-align: center;
+    font-family: 'Manrope', sans-serif;
+    color: rgba(255, 255, 255, 0.596);
+}
+#fra1{
+    font-family: 'Manrope', sans-serif;
+    text-align: center;
+    font-size: 25px;
+    text-shadow: 2px 2px 3px rgb(0, 0, 0);
+}
+#fra1no{
+    display: none;
+}
+#fra2{
+    display: none;
+}
+#fra2si{
+    font-family: 'Manrope', sans-serif;
+    text-align: center;
+    font-size: 25px;
+    text-shadow: 2px 2px 3px rgb(0, 0, 0);
+}
+#fra3{
+    display: none;
+}
+#fra3si{
+    font-family: 'Manrope', sans-serif;
+    text-align: center;
+    font-size: 25px;
+    text-shadow: 2px 2px 3px rgb(0, 0, 0);
+}
+#fra4{
+    display: none;
+}
+#fra4si{
+    font-family: 'Manrope', sans-serif;
+    text-align: center;
+    font-size: 25px;
+    text-shadow: 2px 2px 3px rgb(0, 0, 0);
+}
+#fra5{
+    display: none;
+}
+#fra5si{
+    font-family: 'Manrope', sans-serif;
+    text-align: center;
+    font-size: 25px;
+    text-shadow: 2px 2px 3px rgb(0, 0, 0);
+}
+#fra6{
+    display: none;
+}
+#fra6si{
+    font-family: 'Manrope', sans-serif;
+    text-align: center;
+    font-size: 25px;
+    text-shadow: 2px 2px 3px rgb(0, 0, 0);
+}
+#fra7{
+    display: none;
+}
+#fra7si{
+    font-family: 'Manrope', sans-serif;
+    text-align: center;
+    font-size: 25px;
+    text-shadow: 2px 2px 3px rgb(0, 0, 0);
+}
+#fra8{
+    display: none;
+}
+#fra8si{
+    font-family: 'Manrope', sans-serif;
+    text-align: center;
+    font-size: 25px;
+    text-shadow: 2px 2px 3px rgb(0, 0, 0);
+}
+#fra9{
+    display: none;
+}
+#fra9si{
+    font-family: 'Manrope', sans-serif;
+    text-align: center;
+    font-size: 25px;
+    text-shadow: 2px 2px 3px rgb(0, 0, 0);
+}
+#fra10{
+    display: none;
+}
+#fra10si{
+    font-family: 'Manrope', sans-serif;
+    text-align: center;
+    font-size: 25px;
+    text-shadow: 2px 2px 3px rgb(0, 0, 0);
+}
+#fra11{
+    display: none;
+}
+#fra11si{
+    font-family: 'Manrope', sans-serif;
+    text-align: center;
+    font-size: 25px;
+    text-shadow: 2px 2px 3px rgb(0, 0, 0);
+}
+#fra12{
+    display: none;
+}
+#fra12si{
+    font-family: 'Manrope', sans-serif;
+    text-align: center;
+    font-size: 25px;
+    text-shadow: 2px 2px 3px rgb(0, 0, 0);
 }
 
 
