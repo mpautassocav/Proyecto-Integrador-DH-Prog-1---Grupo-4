@@ -285,12 +285,7 @@ body{
 
 
 
-#musicass{
-    display: grid;
-    grid-template-columns: 1fr;
-    border-radius: 5px;
-    background-color: #4CAF50;
-}
+
 #musicasi{
     display: grid;
     grid-template-columns: 1fr;
@@ -309,7 +304,7 @@ body{
     border-radius: 5px;
     background-color: #4CAF50;
 }
-#musino{
+#musicano{
     display: grid;
     grid-template-columns: 1fr;
     border-radius: 5px;
