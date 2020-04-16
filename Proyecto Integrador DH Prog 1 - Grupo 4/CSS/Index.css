@@ -1,16 +1,10 @@
 body{
-    background-color: rgb(27, 38, 44);
+    background-color: #102c34;
     margin: 0px;
     width: 100%;
 }
 .container {
-    margin: auto;
-    margin-top: 210px;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;  
+    margin-top: 210px; 
 }
 .header{
     box-sizing: border-box;
@@ -89,18 +83,6 @@ body{
     height: 100%;
     width: 100%;
     object-fit: cover;
-}
-#ranking_playlists {
-    color: rgb(204, 204, 204);
-    margin-top: 100px;
-}
-#ranking_artists {
-    color: rgb(204, 204, 204);
-    margin-top: 100px;
-}
-#ranking_tracks {
-    color: rgb(204, 204, 204);
-    margin-top: 100px;
 }
 #fras{
     height: 170px;
@@ -227,6 +209,120 @@ body{
     text-align: center;
     font-size: 25px;
     text-shadow: 2px 2px 3px rgb(0, 0, 0);
+}
+.ranks{
+    margin-left: auto;
+    margin-right: auto;
+    height: 55px;
+    width: 90%;
+    margin-top: 0px;
+    background-color: #333;
+    border-radius: 5px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+#iconosranks{
+    margin: auto;
+}
+#ranking_tracks{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    width: 90%;
+    background-color: rgb(78, 79, 83);
+    height: 460px;
+    border-radius: 5px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+#ranking_playlists{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    width: 90%;
+    background-color: rgb(78, 79, 83);
+    height: 460px;
+    border-radius: 5px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+#ranking_artists{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    width: 90%;
+    background-color: rgb(78, 79, 83);
+    height: 460px;
+    border-radius: 5px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+#canciones{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 15px;
+    font-family: 'Manrope', sans-serif;
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+}
+#track-image{
+    margin: auto;
+}
+#track{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#ranking_tracksno{
+    display: none;
+}
+#ranking_playlistsno{
+    display: none;
+}
+#ranking_artistsno{
+    display: none;
+}
+
+
+
+#musicass{
+    display: grid;
+    grid-template-columns: 1fr;
+    border-radius: 5px;
+    background-color: #4CAF50;
+}
+#musicasi{
+    display: grid;
+    grid-template-columns: 1fr;
+    border-radius: 5px;
+    background-color: #4CAF50;
+}
+#playlistsi{
+    display: grid;
+    grid-template-columns: 1fr;
+    border-radius: 5px;
+    background-color: #4CAF50;
+}
+#artistsi{
+    display: grid;
+    grid-template-columns: 1fr;
+    border-radius: 5px;
+    background-color: #4CAF50;
+}
+#musino{
+    display: grid;
+    grid-template-columns: 1fr;
+    border-radius: 5px;
+}
+#playlistno{
+    display: grid;
+    grid-template-columns: 1fr;
+    border-radius: 5px;
+}
+#artistno{
+    display: grid;
+    grid-template-columns: 1fr;
+    border-radius: 5px;
 }
 
 
