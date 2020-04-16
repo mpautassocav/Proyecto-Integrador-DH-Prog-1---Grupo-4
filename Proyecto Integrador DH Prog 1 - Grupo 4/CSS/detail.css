@@ -3,14 +3,6 @@ body{
     margin: 0px;
     width: 100%;
 }
-.container {
-    margin: auto;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;  
-}
 .header{
     box-sizing: border-box;
     background-color: #102c34;
@@ -80,22 +72,43 @@ body{
     border-radius: 200px;
     font-family: 'Raleway', sans-serif;
 }
-
-#ranking_tracks {
-    color: rgb(204, 204, 204);
-    margin-top: 100px;
+#artist{
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
-#track {
-    color: rgb(204, 204, 204);
+#followers{
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
-#artist {
-    color: rgb(204, 204, 204);
+#track{
+    text-align: center;
 }
 
-#album {
-    color: rgb(204, 204, 204);
+#album{
+    text-align: center;
+}
+
+#topfive{
+    text-align: center;
+    border: 2px solid white;
+    margin: 0px 77px 0px 77px;
+    padding-bottom: 30px;
+}
+
+h1{
+    color: white;
+}
+
+.top{
+    color: white;
 }
 
 @media (min-width: 600px){
