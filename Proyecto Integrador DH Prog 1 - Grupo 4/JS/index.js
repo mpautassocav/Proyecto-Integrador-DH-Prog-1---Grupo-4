@@ -94,3 +94,72 @@ function chau12(){
         fra1no.id="fra1"
     }
 }
+function musicasi(){
+    var musi = document.getElementById("musicasi")
+    var plsi = document.getElementById("playlistsi")
+    var artsi = document.getElementById("artistsi")
+    var muno = document.getElementById("musicano")
+    var plno = document.getElementById("playlistno")
+    var artno = document.getElementById("artistno")
+    var tracks = document.getElementById("ranking_tracks")
+    var playsi = document.getElementById("ranking_playlist")
+    var arts = document.getElementById("ranking_artists")
+    a="a"
+    if(a==a){
+        musi.style.display="inherit";
+        muno.style.display="none";
+        plsi.style.display="none";
+        artsi.style.display="none";
+        plno.style.display="inherit";
+        artno.style.display="inherit";
+        tracks.style.display="grid";
+        playsi.style.display="none";
+        arts.style.display="none";
+    }
+}
+function playsi(){
+    var musi = document.getElementById("musicasi")
+    var plsi = document.getElementById("playlistsi")
+    var artsi = document.getElementById("artistsi")
+    var muno = document.getElementById("musicano")
+    var plno = document.getElementById("playlistno")
+    var artno = document.getElementById("artistno")
+    var tracks = document.getElementById("ranking_tracks")
+    var playsi = document.getElementById("ranking_playlist")
+    var arts = document.getElementById("ranking_artists")
+    a="a"
+    if(a==a){
+        musi.style.display="none";
+        muno.style.display="inherit";
+        plsi.style.display="inherit";
+        artsi.style.display="none";
+        plno.style.display="none";
+        artno.style.display="inherit";
+        tracks.style.display="none";
+        playsi.style.display="grid";
+        arts.style.display="none";
+    }
+}
+function artsi(){
+    var musi = document.getElementById("musicasi")
+    var plsi = document.getElementById("playlistsi")
+    var artsi = document.getElementById("artistsi")
+    var muno = document.getElementById("musicano")
+    var plno = document.getElementById("playlistno")
+    var artno = document.getElementById("artistno")
+    var tracks = document.getElementById("ranking_tracks")
+    var playsi = document.getElementById("ranking_playlist")
+    var arts = document.getElementById("ranking_artists")
+    a="a"
+    if(a==a){
+        musi.style.display="none";
+        muno.style.display="inherit";
+        plsi.style.display="none";
+        artsi.style.display="inherit";
+        plno.style.display="inherit";
+        artno.style.display="none";
+        tracks.style.display="none";
+        playsi.style.display="none";
+        arts.style.display="grid";
+    }
+}
