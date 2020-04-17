@@ -5,11 +5,12 @@ body{
 }
 .container {
     margin: auto;
+    margin-top: 20px;
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-around;
-    align-items: center;  
+    align-items: center;
 }
 .header{
     box-sizing: border-box;
@@ -81,16 +82,66 @@ body{
     font-family: 'Raleway', sans-serif;
 }
 
-#ranking_tracks {
-    color: rgb(204, 204, 204);
-    margin-top: 100px;
-}
 
 #playlist {
-    color: rgb(204, 204, 204);
+    color: antiquewhite;
 }
 
+#ranking_tracks{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    width: 90%;
+    background-color: rgb(78, 79, 83);
+    height: 350px;
+    border-radius: 5px;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
 
+#ranking_tracks a{
+    text-decoration: none;
+    color: black;
+    margin-top: 10px;
+}
+
+.canciones{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 15px;
+    font-family: 'Manrope', sans-serif;
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+}
+
+#track{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#track-image{
+    margin: auto;
+}
+
+#aleatoria {
+    color: antiquewhite;
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(62, 178, 255, 0.836);
+    border-radius: 20px;
+    height: 20px;
+    width: 60%;
+}
+
+#agregarCanciones {
+    color: antiquewhite;
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    border-color: honeydew;
+    height: 20px;
+    width: 60%;
+}
 
 
 @media (min-width: 600px){
