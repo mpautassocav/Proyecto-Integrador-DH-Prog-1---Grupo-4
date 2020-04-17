@@ -1,8 +1,14 @@
 body{
     background-color: rgb(27, 38, 44);
-    margin: 0px;
+    margin: 0px auto;
     width: 100%;
+    font-family: 'Hammersmith One', sans-serif;
+    text-align: center;
+    font-size: 30px;
+    text-shadow: 2px 2px 3px rgb(0, 0, 0);
+    color: white  
 }
+
 .header{
     box-sizing: border-box;
     background-color: #102c34;
@@ -10,21 +16,26 @@ body{
     display: grid;
     grid-template-rows: 1fr 1fr;
 }
+
 .logodiv{
     display: grid;
     grid-template-columns: 1fr;
 }
+
 .logo{
     margin-left: auto;
     margin-right: auto;
 }
+
 .botonesdiv{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
+
 #botones{
     margin: auto;
 }
+
 .footer{
     display: grid;
     grid-template-columns: 3fr 1fr;
@@ -35,14 +46,17 @@ body{
     font-family: 'Open Sans', sans-serif;
     font-size: 10px;
 }
+
 #name{
     margin-top: 3px;
     margin-bottom: 3px;
     margin-left: 8px;
 }
+
 .logodeez{
     margin-top: 8px;
 }
+
 .divbusqueda {
     height: 23px;
     width: 100%;
@@ -51,7 +65,9 @@ body{
     padding-bottom: 5px;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
+    margin-bottom: 10px;
 }
+
 .busqueda2{
     display: grid;
     margin-left: auto;
@@ -61,54 +77,50 @@ body{
     border-radius: 200px;
     background-color: white;
 }
+
 .lupa{
     margin-top: auto;
     margin-bottom: auto;
     margin-left: 30%;
 }
+
 .busqueda{
     margin: 0% 20% 0% 5%;
     border-width: 0px;
     border-radius: 200px;
     font-family: 'Raleway', sans-serif;
 }
-#artist{
-    margin: auto;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-around;
-}
-
-#followers{
-    margin: auto;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-around;
-}
-
-#track{
-    text-align: center;
-}
-
-#album{
-    text-align: center;
-}
 
 #topfive{
+    color: black;
+    background-color: white;
     text-align: center;
     border: 2px solid white;
-    margin: 0px 77px 0px 77px;
-    padding-bottom: 30px;
+    border-radius: 5px;
+    margin: 10px 30px 10px 30px;
+    padding-bottom: 8px;
 }
 
-h1{
-    color: white;
+.container{
+    margin-top: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 5px;
 }
 
-.top{
-    color: white;
+.topcancion{
+    margin-top: 2px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 2px;
+}
+
+#cabeza{
+    padding: 10px 0px 10px
 }
 
 @media (min-width: 600px){
