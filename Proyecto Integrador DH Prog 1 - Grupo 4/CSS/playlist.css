@@ -136,11 +136,12 @@ body{
     color: antiquewhite;
     text-align: center;
     margin-top: 20px;
-    padding: 10px;
-    border-radius: 20px;
-    border-color: honeydew;
+    border-radius: 40px;
+    border: 1px solid;
+    border-color: grey;
+    background-color: transparent;
     height: 20px;
-    width: 60%;
+    width: 50%;
 }
 
 
