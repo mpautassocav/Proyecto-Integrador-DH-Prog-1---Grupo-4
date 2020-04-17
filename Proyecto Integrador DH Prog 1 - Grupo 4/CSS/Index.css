@@ -1,5 +1,5 @@
 body{
-    background-color: #102c34;
+    background-color: #E4E0FF;
     margin: 0px;
     width: 100%;
 }
@@ -213,7 +213,7 @@ body{
     height: 55px;
     width: 90%;
     margin-top: 0px;
-    background-color: #333;
+    background-color: rgba(65, 70, 91, 0.123);
     border-radius: 5px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -226,7 +226,7 @@ body{
     margin-right: auto;
     margin-top: 5px;
     width: 90%;
-    background-color: rgb(78, 79, 83);
+    background-color: rgb(255, 255, 255);
     height: 460px;
     border-radius: 5px;
     display: none;
@@ -237,7 +237,7 @@ body{
     margin-right: auto;
     margin-top: 5px;
     width: 90%;
-    background-color: rgb(78, 79, 83);
+    background-color: rgb(255, 255, 255);
     height: 460px;
     border-radius: 5px;
     display: none;
@@ -248,7 +248,7 @@ body{
     margin-right: auto;
     margin-top: 5px;
     width: 90%;
-    background-color: rgb(78, 79, 83);
+    background-color: rgb(255, 255, 255);
     height: 460px;
     border-radius: 5px;
     display: none;
@@ -283,16 +283,25 @@ body{
     margin-top: 205px;
     margin-left: auto;
     margin-right: auto;
-    height: 25px;
-    width: 90%;
-    background-color: rgba(21, 255, 0, 0.192);
-    border-radius: 5px;
+    height: 29px;
+    width: 45%;
+    background-color: #ff004cc4;
+    border-radius: 500px;
     text-align: center;
     font-family: 'Manrope', sans-serif;
     text-align: center;
+    display: grid;
+    grid-template-columns: 1fr;
 }
+.tend{
+    margin: auto;
+    font-family: 'Heebo', sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+
 .container{
-    margin-top: 1px;
+    margin-top: 3px;
 }
 
 
@@ -301,21 +310,21 @@ body{
     display: grid;
     grid-template-columns: 1fr;
     border-radius: 5px;
-    background-color: #4CAF50;
+    background-color: #ff004cc4;
     display: none;
 }
 #playlistsi{
     display: grid;
     grid-template-columns: 1fr;
     border-radius: 5px;
-    background-color: #4CAF50;
+    background-color: #ff004cc4;
     display: none;
 }
 #artistsi{
     display: grid;
     grid-template-columns: 1fr;
     border-radius: 5px;
-    background-color: #4CAF50;
+    background-color: #ff004cc4;
     display: none;
 }
 #musicano{
