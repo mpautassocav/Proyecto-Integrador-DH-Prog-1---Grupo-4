@@ -129,7 +129,7 @@ body{
     background-color: rgba(62, 178, 255, 0.836);
     border-radius: 20px;
     height: 20px;
-    width: 60%;
+    width: 225px;
 }
 
 #agregarCanciones {
@@ -141,7 +141,7 @@ body{
     border-color: grey;
     background-color: transparent;
     height: 20px;
-    width: 50%;
+    width: 150px;
 }
 
 
