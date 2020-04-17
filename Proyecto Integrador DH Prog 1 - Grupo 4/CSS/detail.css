@@ -1,12 +1,84 @@
-body{
+body {
     background-color: rgb(27, 38, 44);
-    margin: 0px auto;
+    margin: 0px;
     width: 100%;
-    font-family: 'Hammersmith One', sans-serif;
-    text-align: center;
-    font-size: 30px;
-    text-shadow: 2px 2px 3px rgb(0, 0, 0);
-    color: white  
+}
+
+.container{
+    margin-top: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 5px;
+}
+
+#containerdelcontainer {
+    width: 100%;
+    margin: auto;
+    border-radius: 5px;
+}
+
+
+.containerArtista {
+    margin-top: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-bottom: 5px;
+    background-image: url(../Imagenes/NoraEnPure.jpeg);
+    background-size: cover;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#detalleArtista {
+    margin-top: 70px;
+    color: aqua;
+    padding-left: 20px;
+}
+
+#seguidores {
+   margin-top: 5px;
+   padding-left: 20px;
+   color: grey;
+}
+
+#ranking_tracks{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    width: 90%;
+    background-color: rgb(78, 79, 83);
+    height: 175px;
+    border-radius: 5px;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+#ranking_tracks a{
+    text-decoration: none;
+    color: black;
+    margin-top: 10px;
+}
+
+.canciones{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 15px;
+    font-family: 'Manrope', sans-serif;
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+}
+
+#track{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#track-image{
+    margin: auto;
 }
 
 .header{
@@ -99,15 +171,6 @@ body{
     border-radius: 5px;
     margin: 10px 30px 10px 30px;
     padding-bottom: 8px;
-}
-
-.container{
-    margin-top: 5px;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-around;
-    margin-bottom: 5px;
 }
 
 .topcancion{
