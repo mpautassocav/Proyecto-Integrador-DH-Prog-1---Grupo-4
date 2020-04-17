@@ -5,13 +5,15 @@ body {
 }
 
 .container{
-    margin-top: 5px;
+    margin-top: 20px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-around;
     margin-bottom: 5px;
 }
+
+
 
 #containerdelcontainer {
     width: 100%;
@@ -35,16 +37,34 @@ body {
 }
 
 #detalleArtista {
-    margin-top: 70px;
+    margin-top: 200px;
     color: aqua;
     padding-left: 20px;
 }
 
-#seguidores {
+.seguidores {
    margin-top: 5px;
-   padding-left: 20px;
+   padding-left: 30px;
    color: grey;
 }
+
+.topSongs {
+margin-top: 30px;
+   padding-left: 30px;
+   color: white;
+}
+
+
+* CSS ALBUM *
+
+.gridcontainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 20px;
+}
+
+
+
 
 #ranking_tracks{
     margin-left: auto;
