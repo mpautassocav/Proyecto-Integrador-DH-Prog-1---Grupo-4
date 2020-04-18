@@ -1,7 +1,8 @@
 body{
-    background-color: rgb(27, 38, 44);
+    background-color: rgb(243, 241, 255);
     margin: 0px;
     width: 100%;
+    font-family: Helvetica, Arial, sans-serif;
 }
 .container {
     margin: auto;
@@ -47,6 +48,16 @@ body{
     font-family: 'Open Sans', sans-serif;
     font-size: 10px;
 }
+.footerp{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    background-color: #518594;
+    width: 100%;
+    margin-top: 60px;
+    color: rgb(204, 204, 204);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 10px;
+}
 #name{
     margin-top: 3px;
     margin-bottom: 3px;
@@ -88,7 +99,7 @@ body{
 
 
 #playlist {
-    color: antiquewhite;
+    color: #ff004cc4;
 }
 
 #ranking_tracks{
@@ -96,7 +107,7 @@ body{
     margin-right: auto;
     margin-top: 20px;
     width: 90%;
-    background-color: rgb(78, 79, 83);
+    background-color: rgb(255, 255, 255);
     height: 350px;
     border-radius: 5px;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -130,24 +141,29 @@ body{
     color: antiquewhite;
     text-align: center;
     padding: 10px;
-    background-color: rgba(62, 178, 255, 0.836);
+    background-color: #ff004cc4;
     border-radius: 20px;
     height: 20px;
     width: 225px;
 }
 
 #agregarCanciones {
-    color: antiquewhite;
+    color: rgba(41, 41, 41, 0.459);
+    font-weight: bold;
     text-align: center;
     margin-top: 20px;
     border-radius: 40px;
     border: 1px solid;
-    border-color: grey;
+    border-color: #ff004cc4;
     background-color: transparent;
-    height: 20px;
-    width: 150px;
+    height: 25px;
+    width: 180px;
+    display: grid;
+    grid-template-columns: 1fr;
 }
-
+.agcanc{
+    margin: auto;
+}
 
 @media (min-width: 600px){
 }
