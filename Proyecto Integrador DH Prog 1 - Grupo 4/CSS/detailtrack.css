@@ -3,7 +3,7 @@ body{
     background-color: #e5f1f14d;
     margin: 0px;
     width: 100%;
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: 'Manrope', sans-serif;
 }
 a {
     text-decoration: none;
@@ -143,6 +143,8 @@ a {
     margin: 14px;
     padding-top: 5px;
     padding-bottom: 5px;
+    .playButton{font-family: 'Heebo', sans-serif;}
+
 }
 
 .artistName {
@@ -158,5 +160,4 @@ a {
 }
 
 @media (min-width: 600px){
-    body{background-color: white}
 }

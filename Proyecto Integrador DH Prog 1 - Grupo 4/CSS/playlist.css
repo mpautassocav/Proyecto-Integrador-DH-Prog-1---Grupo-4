@@ -1,5 +1,6 @@
 body{
-    background-color: rgb(243, 241, 255);
+    background-color:#E4E0FF;
+    background-color: #e5f1f14d;
     margin: 0px;
     width: 100%;
     font-family: Helvetica, Arial, sans-serif;
@@ -100,6 +101,7 @@ body{
 
 #playlist {
     color: #ff004cc4;
+    font-family: 'Heebo', sans-serif
 }
 
 #ranking_tracks{
@@ -107,7 +109,7 @@ body{
     margin-right: auto;
     margin-top: 20px;
     width: 90%;
-    background-color: rgb(255, 255, 255);
+    background-color:white;
     height: 350px;
     border-radius: 5px;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -145,6 +147,7 @@ body{
     border-radius: 20px;
     height: 20px;
     width: 225px;
+    font-family: 'Heebo', sans-serif
 }
 
 #agregarCanciones {
@@ -160,12 +163,11 @@ body{
     width: 180px;
     display: grid;
     grid-template-columns: 1fr;
+    font-family: 'Heebo', sans-serif
 }
 .agcanc{
     margin: auto;
 }
 
 @media (min-width: 600px){
-    body{background-color: white;}
-    #ranking_tracks{background-color: #f0f0f0b0;}
 }
