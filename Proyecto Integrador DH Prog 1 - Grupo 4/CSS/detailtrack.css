@@ -156,3 +156,7 @@ a {
 .genreName {
     color: gray;
 }
+
+@media (min-width: 600px){
+    body{background-color: white}
+}

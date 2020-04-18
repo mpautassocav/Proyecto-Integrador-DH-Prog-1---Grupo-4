@@ -333,8 +333,5 @@ a {
 
 @media (min-width: 600px){
     body{background-color: white}
-
-    #ranking_tracks{
-        background-color: #f0f0f0b0;
-    }
+    #ranking_tracks{background-color: #f0f0f0b0;}
 }
