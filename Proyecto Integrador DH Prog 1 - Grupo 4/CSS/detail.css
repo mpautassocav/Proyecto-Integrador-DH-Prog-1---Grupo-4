@@ -63,7 +63,7 @@ a {
 .topSongs {
 margin-top: 30px;
    padding-left: 30px;
-   color: grey;
+   color: black;
 }
 
 
@@ -201,7 +201,11 @@ margin-top: 30px;
     width: 100%;
     display: grid;
     grid-template-rows: 1fr 1fr;
+    position: fixed;
+    top: 0px;
+    z-index: 10;
 }
+
 
 .logodiv{
     display: grid;
@@ -244,6 +248,7 @@ margin-top: 30px;
 }
 
 .divbusqueda {
+    margin-top: 90px;
     height: 23px;
     width: 100%;
     background-color: #102c34;
