@@ -35,7 +35,6 @@ a {
 
 
 .containerArtista {
-    
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -102,6 +101,18 @@ a {
 #imageArtist {
     color: white;
     background-image: url(../Imagenes/homebound.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 4px;
+    margin: 10px;
+    margin-left: 6px;
+    padding: 75px;
+    box-sizing: border-box;
+}
+#imageArtistt {
+    color: white;
+    background-image: url(../Imagenes/canserbero.jpg);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -262,7 +273,7 @@ a {
     padding-bottom: 5px;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
-    margin-bottom: 10px;
+    margin-bottom: px;
 }
 
 .busqueda2{
