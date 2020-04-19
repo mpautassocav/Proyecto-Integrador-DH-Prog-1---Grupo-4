@@ -19,7 +19,6 @@ a {
     margin-bottom: 5px;
 }
 
-
 /*
 .header{
     box-sizing: border-box;
@@ -138,15 +137,19 @@ a {
 
 .header{
     box-sizing: border-box;
-    background-color: #102c34;
-    width: 100%;
     display: grid;
     grid-template-rows: 1fr 1fr;
+}
+
+#global{
     position: fixed;
     top: 0px;
     z-index: 10;
+    width: 100%;
+    background-color: #E4E0FF;
+    background-color: #e5f1f14d;
 }
-                                              
+                                            
 .logodiv{
     display: grid;
     grid-template-columns: 1fr;
@@ -560,8 +563,6 @@ a {
 .rankings{
     width: 90%;
 }
-
-
 
 @media (min-width: 600px){
     .container{
