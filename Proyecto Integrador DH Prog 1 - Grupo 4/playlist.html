@@ -11,6 +11,53 @@
     <title>Playlist</title>
 </head> 
 <body> 
+
+    <div id="containerTopNav">
+        <div><a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+            </div>
+          </a>
+        </div>
+        <div id="logoSoundWaves">
+            <a href="Index.html"><div class="logodiv"><img src="Imagenes/Logo.jpg" width="45px" class="logo"></div></a>
+        </div>
+        <div class="playlist" id="botones">
+            <a href="playlist.html" title="Playlist"><img src="Imagenes/list-ul-solid.svg" width="20px"></a>
+        </div>
+    </div>
+        
+        <div class="topnav" id="myTopnav">
+            <div class="line3"></div>
+            <a href="#"><div class="divbusqueda2">
+                <div class="busqueda2a">
+                    <img src="Imagenes/search-solid (1).svg" width="10px" class="lupa">
+                    <input type="text" placeholder="Buscar" class="busqueda">
+                </div>
+            </div></a>
+          <a href="Index.html">Home</a>
+          <div class="line"></div>
+          <a href="playlist.html">Playlist</a>
+          <div class="line"></div>
+          <a href="detailArtist.html">Detail Artist</a>
+          <div class="line"></div>
+          <a href="detailAlbum.html">Detail Album</a>
+          <div class="line"></div>
+        </div>
+
+        <script>
+            function myFunction() {
+              var x = document.getElementById("myTopnav");
+              if (x.className === "topnav") {
+                x.className += " responsive";
+              } else {
+                x.className = "topnav";
+              }
+            }
+        </script>
+
+<!--
     <div class="header">
         <a href="Index.html" title="SoundWaves" ><div class="logodiv"><img src="Imagenes/Logo.jpg" width="45px" class="logo"></div></a>
         <div class="botonesdiv">
@@ -31,6 +78,7 @@
             <input type="text" placeholder="Buscar" class="busqueda">
         </div>
     </div>
+    -->
     <div class="container">
             <div id="playlist">
                 <h1>Tu Playlist</h1>
