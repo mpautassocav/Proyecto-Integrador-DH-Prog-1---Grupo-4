@@ -10,9 +10,8 @@ a {
     text-decoration: none;
     color: black;
 }
-
 .container{
-    margin-top: 20px;
+    margin-top: 0px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -481,8 +480,15 @@ a {
 #ranking_artistsno{
     display: none;
 }
+.extra{
+    width: 100%;
+}
+.fotoalbum{
+    display: none;
+}
 .trending{
     margin-top: 205px;
+    margin-bottom: 5px;
     margin-left: auto;
     margin-right: auto;
     height: 29px;
@@ -551,4 +557,62 @@ a {
 
 
 @media (min-width: 600px){
+    .container{
+        margin-top: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-bottom: 0px;
+        display: grid;
+        grid-template-columns: 1fr 1.15fr;
+    }
+    .trending{
+        margin-top: 205px;
+        margin-left: auto;
+        margin-right: auto;
+        height: 29px;
+        width: 45%;
+        background-color: #ff004cc4;
+        border-radius: 500px;
+        text-align: center;
+        font-family: 'Manrope', sans-serif;
+        text-align: center;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .tend{
+        margin: auto;
+        font-family: 'Heebo', sans-serif;
+        color: rgb(255, 255, 255);
+    }
+    .fotoalbum{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-top: 125px;
+    }
+    .extra{
+        margin-top: -65px;
+    }
+    body{
+        background-color: #E4E0FF;
+        background-color: #ffffff;
+        margin: 0px;
+        width: 100%;
+        font-family: 'Manrope', sans-serif;
+    }
+    .footer{
+        display: grid;
+        grid-template-columns: 4fr 1fr;
+        background-color: #282024;
+        width: 100%;
+        margin-top: 0px;
+        color: #6e6e73;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 10px;
+    }
+    .divm{
+        height: 438px;
+        box-sizing: border-box;
+    }
 }
