@@ -40,7 +40,6 @@ a {
    margin-top: 0px;
    margin-left: 10px;
    margin-right: 10px;
-   z-index: 10;
 }
 
 .divbusqueda2 {
@@ -72,8 +71,8 @@ a {
     cursor: pointer;
     text-align: left;
     position: absolute;
-    left: 30px;
-    top: 15px;
+    left: 11%;
+    top: 20px;
 }
 
 .burger div {
@@ -104,7 +103,8 @@ a {
     #containerTopNav {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        
+        margin-top: 5px;
+        margin-bottom: 10px;
     }
 
     #logoSoundWaves  {
@@ -158,8 +158,11 @@ a {
 }
                                                 
 #botones{
-    margin: auto;
- }
+        position: absolute;
+        top: 20px;
+        right: 12.5%;
+        margin: auto;
+    }
                 
  .divbusqueda {
     margin-top: 90px;
