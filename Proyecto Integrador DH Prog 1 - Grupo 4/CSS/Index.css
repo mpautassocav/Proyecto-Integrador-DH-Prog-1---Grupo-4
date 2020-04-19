@@ -39,6 +39,7 @@ a {
 #myTopnav {
    margin-top: 0px;
    margin-left: 10px;
+   margin-right: 10px;
    z-index: 10;
 }
 
@@ -540,7 +541,9 @@ a {
     grid-template-columns: 1fr;
     border-radius: 5px;
 }
-
+.rankings{
+    width: 90%;
+}
 
 
 
