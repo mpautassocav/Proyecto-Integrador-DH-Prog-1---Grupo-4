@@ -4,6 +4,7 @@ body{
     margin: 0px;
     width: 100%;
 }
+
 .header{
     box-sizing: border-box;
     background-color: #102c34;
@@ -12,8 +13,107 @@ body{
     grid-template-rows: 1fr 1fr;
     position: fixed;
     top: 0px;
-    z-index: 10;
+    z-index: 0;
 }
+
+                                                     /*Apple topnav*/
+/*
+#myTopnav {
+   margin-top: 0px;
+   margin-left: 10px;
+   z-index: 10;
+}
+
+.divbusqueda2 {
+    background-color: none;
+    margin-top: 10px;
+    height: 23px;
+    width: 100%;
+    display: grid;
+    padding-bottom: 5px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    margin-bottom: 10px;
+}
+
+.busqueda2a {
+    display: grid;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    grid-template-columns: 1fr 9fr;
+    border-radius: 200px;
+    border: solid 1px gray;
+    background-color: white;
+    
+}
+
+
+.burger {
+    cursor: pointer;
+    text-align: left;
+    position: absolute;
+    left: 30px;
+    top: 15px;
+}
+
+.burger div {
+    width: 25px;
+    height: 1px;
+    background-color: black;
+    margin: 5px;
+    text-align: left;
+}
+
+.topnav a{display: none;}
+  .topnav a.burger {
+    float: right;
+    display: block;
+  }
+  .topnav.responsive {position: relative;}
+    .topnav.responsive .burger {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .topnav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+
+    #containerTopNav {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        
+    }
+
+    #logoSoundWaves  {
+        background-color: none;
+    }
+
+    .line3 {
+        background-color: #ff004cc4;
+        height: 1px;
+        margin: 1px;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .topnav.responsive .line {
+        height: 1px;
+        background-color: #ecc8d3e1;
+    }
+
+    .topnav.responsive .line3 {
+        display: none;
+    }
+*/
+                                                /*Hasta acá Apple topnav*/
+
+
+
+
 
 .logodiv{
     display: grid;
@@ -49,7 +149,7 @@ body{
     margin-top: 8px;
 }
 .divbusqueda {
-    margin-top: 90px;
+    margin-top: 20px;
     height: 23px;
     width: 100%;
     background-color: #102c34;
