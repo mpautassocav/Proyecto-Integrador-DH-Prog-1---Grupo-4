@@ -225,9 +225,9 @@ a {
 .footer{
     display: grid;
     grid-template-columns: 4fr 1fr;
-    background-color: #1d1d1f;
+    background-color: #282024;
     width: 100%;
-    margin-top: 390px;
+    margin-top: 50px;
     color: #6e6e73;
     font-family: 'Open Sans', sans-serif;
     font-size: 10px;
@@ -274,7 +274,7 @@ a {
 */
 
 .divm{
-    height: 420px;
+    height: 476px;
     box-sizing: border-box;
 }
 .marshallf{

@@ -40,7 +40,7 @@ a {
 .footer{
     display: grid;
     grid-template-columns: 4fr 1fr;
-    background-color: #1d1d1f;
+    background-color: #282024;
     width: 100%;
     margin-top: 390px;
     color: #6e6e73;
