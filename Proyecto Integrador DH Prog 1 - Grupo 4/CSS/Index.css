@@ -224,11 +224,11 @@ a {
 */
 .footer{
     display: grid;
-    grid-template-columns: 3fr 1fr;
-    background-color: #518594;
+    grid-template-columns: 4fr 1fr;
+    background-color: #1d1d1f;
     width: 100%;
-    margin-top: 90px;
-    color: rgb(204, 204, 204);
+    margin-top: 390px;
+    color: #6e6e73;
     font-family: 'Open Sans', sans-serif;
     font-size: 10px;
 }
