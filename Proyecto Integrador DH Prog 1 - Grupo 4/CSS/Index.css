@@ -103,7 +103,7 @@ a {
     #containerTopNav {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        margin-top: 5px;
+        margin-top: 0px;
         margin-bottom: 10px;
     }
 
@@ -148,6 +148,7 @@ a {
     width: 100%;
     background-color: #E4E0FF;
     background-color: #e5f1f14d;
+    backdrop-filter: blur(5px);
 }
                                             
 .logodiv{
@@ -283,7 +284,7 @@ a {
 */
 
 .divm{
-    height: 476px;
+    height: 434px;
     box-sizing: border-box;
 }
 .marshallf{
@@ -521,7 +522,10 @@ a {
 .container{
     margin-top: 3px;
 }
-
+.nada{
+    background-color: #102c34;
+    height: 103.94px;
+}
 
 
 #musicasi{
@@ -620,7 +624,7 @@ a {
         font-size: 10px;
     }
     .divm{
-        height: 438px;
+        height: 396px;
         box-sizing: border-box;
     }
 }
