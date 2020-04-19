@@ -3,8 +3,25 @@ body{
     background-color: #e5f1f14d;
     margin: 0px;
     width: 100%;
+    font-family: 'Manrope', sans-serif;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.container{
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 5px;
+}
+
+
+/*
 .header{
     box-sizing: border-box;
     background-color: #102c34;
@@ -15,9 +32,10 @@ body{
     top: 0px;
     z-index: 0;
 }
+*/
 
                                                      /*Apple topnav*/
-/*
+
 #myTopnav {
    margin-top: 0px;
    margin-left: 10px;
@@ -108,13 +126,82 @@ body{
     .topnav.responsive .line3 {
         display: none;
     }
-*/
+
+
                                                 /*Hasta acá Apple topnav*/
 
+.header{
+    box-sizing: border-box;
+    background-color: #102c34;
+    width: 100%;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    position: fixed;
+    top: 0px;
+    z-index: 10;
+}
+                                              
+.logodiv{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+                                                
+.logo{
+    margin-left: auto;
+    margin-right: auto;
+}
+                                                
+.botonesdiv{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+                                                
+#botones{
+    margin: auto;
+ }
+                
+ .divbusqueda {
+    margin-top: 90px;
+    height: 23px;
+    width: 100%;
+    background-color: #102c34;
+    display: grid;
+    padding-bottom: 5px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    margin-bottom: px;
+}
+
+.busqueda2{
+    display: grid;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    grid-template-columns: 1fr 9fr;
+    border-radius: 200px;
+    background-color: white;
+}
+
+.lupa{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 30%;
+}
+
+.busqueda{
+    margin: 0% 20% 0% 5%;
+    border-width: 0px;
+    border-radius: 200px;
+    font-family: 'Raleway', sans-serif;
+}
+
+#cabeza{
+    padding: 10px 0px 10px
+}
 
 
 
-
+/*
 .logodiv{
     display: grid;
     grid-template-columns: 1fr;
@@ -130,6 +217,7 @@ body{
 #botones{
     margin: auto;
 }
+*/
 .footer{
     display: grid;
     grid-template-columns: 3fr 1fr;
@@ -148,6 +236,7 @@ body{
 .logodeez{
     margin-top: 8px;
 }
+/*
 .divbusqueda {
     margin-top: 20px;
     height: 23px;
@@ -187,6 +276,7 @@ body{
     width: 100%;
     object-fit: cover;
 }
+*/
 #fras{
     height: 170px;
     margin-top: -315px;
