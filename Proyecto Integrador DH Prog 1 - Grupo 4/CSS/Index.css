@@ -480,7 +480,7 @@ a {
     margin-right: auto;
     margin-top: 5px;
     width: 90%;
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.048);
     height: 460px;
     border-radius: 5px;
     display: none;
@@ -491,7 +491,7 @@ a {
     margin-right: auto;
     margin-top: 5px;
     width: 90%;
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.048);
     height: 460px;
     border-radius: 5px;
     display: none;
@@ -502,7 +502,7 @@ a {
     margin-right: auto;
     margin-top: 5px;
     width: 90%;
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.048);
     height: 460px;
     border-radius: 5px;
     display: none;
@@ -522,8 +522,13 @@ a {
 #track{
     margin-top: auto;
     margin-bottom: auto;
+    color: #ff004cc4;
 }
-
+#track:hover{
+    margin-top: auto;
+    margin-bottom: auto;
+    color: #665f5f;
+}
 #ranking_tracksno{
     display: none;
 }
@@ -604,7 +609,7 @@ a {
     border-radius: 5px;
 }
 .rankings{
-    width: 90%;
+    width: 100%;
 }
 
 @media (min-width: 600px){
