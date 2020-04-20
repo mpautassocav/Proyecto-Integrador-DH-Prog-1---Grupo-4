@@ -46,6 +46,12 @@ a {
     background-color: rgba(255, 255, 255, 0.884);
 }
 
+.nada{
+    background-image: linear-gradient(to bottom, white, #fcdfe8c4);
+    height: 108.94px;
+    height: 60px;
+}
+
 
 #myTopnav {
    margin-top: 0px;
@@ -87,9 +93,25 @@ a {
     border-radius: 200px;
     border: solid 1px gray;
     background-color: white;
-    
 }
 
+.busqueda2b {
+    display: grid;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    grid-template-columns: 1fr 9fr;
+    border-radius: 200px;
+    border: solid 1px gray;
+    background-color: white;
+}
+
+#busqueda2c {
+    padding: -200px;
+    width: 210px;
+    height: 22px;
+    margin-top: 1px;
+}
 
 .burger {
     cursor: pointer;
@@ -226,6 +248,7 @@ a {
     border-width: 0px;
     border-radius: 200px;
     font-family: 'Raleway', sans-serif;
+    padding-top: 2px;
 }
 
 #cabeza{
@@ -541,10 +564,7 @@ a {
 .container{
     margin-top: 3px;
 }
-.nada{
-    background-image: linear-gradient(to bottom, white, #fcdfe8c4);
-    height: 108.94px;
-}
+
 
 
 #musicasi{
