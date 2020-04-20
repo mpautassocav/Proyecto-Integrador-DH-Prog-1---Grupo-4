@@ -27,9 +27,10 @@ a {
     background-color: #E4E0FF;
     background-color: #e5f1f14d;
     backdrop-filter: blur(5px);
+    background-color: rgba(255, 255, 255, 0.884);
 }
 .nada{
-    background-image: linear-gradient(to bottom,#ffd7e3,#ffcbcb);
+    background-image: linear-gradient(to bottom, white, #fcdfe8c4);
     height: 61.94px;
 }
 .logodiv{

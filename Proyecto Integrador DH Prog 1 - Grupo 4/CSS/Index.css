@@ -34,11 +34,37 @@ a {
 
                                                      /*Apple topnav*/
 
+
+#global{
+    position: fixed;
+    top: 0px;
+    z-index: 10;
+    width: 100%;
+    background-color: #E4E0FF;
+    background-color: #e5f1f14d;
+    backdrop-filter: blur(5px);
+    background-color: rgba(255, 255, 255, 0.884);
+}
+
+
 #myTopnav {
    margin-top: 0px;
    margin-left: 10px;
    margin-right: 10px;
 }
+
+#containerTopNav {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    
+}
+
+#logoSoundWaves  {
+    background-color: none;
+}
+
 
 .divbusqueda2 {
     background-color: none;
@@ -81,6 +107,16 @@ a {
     text-align: left;
 }
 
+
+
+.line3 {
+    background-color: #ff004cc4;
+    height: 1px;
+    margin: 1px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
 .topnav a{
     display: none;
 }
@@ -112,28 +148,9 @@ a {
         padding-bottom: 3px;
     }
 
-    #containerTopNav {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        margin-top: 5px;
-        margin-bottom: 10px;
-    }
-
-    #logoSoundWaves  {
-        background-color: none;
-    }
-
-    .line3 {
-        background-color: #ff004cc4;
-        height: 1px;
-        margin: 1px;
-        margin-left: 5%;
-        margin-right: 5%;
-    }
-
     .topnav.responsive .line {
         height: 1px;
-        background-color: #ecc8d3e1;
+        background-color: #ff6593c4;
     }
 
     .topnav.responsive .line3 {
@@ -147,20 +164,11 @@ a {
 
                                                 /*Hasta acá Apple topnav*/
 
+
 .header{
     box-sizing: border-box;
     display: grid;
     grid-template-rows: 1fr 1fr;
-}
-
-#global{
-    position: fixed;
-    top: 0px;
-    z-index: 10;
-    width: 100%;
-    background-color: #E4E0FF;
-    background-color: #e5f1f14d;
-    backdrop-filter: blur(5px);
 }
                                             
 .logodiv{
@@ -534,7 +542,7 @@ a {
     margin-top: 3px;
 }
 .nada{
-    background-image: linear-gradient(to bottom,#ffd7e3,#ffcbcb);
+    background-image: linear-gradient(to bottom, white, #fcdfe8c4);
     height: 108.94px;
 }
 
