@@ -47,7 +47,7 @@ a {
 }
 
 .nada{
-    background-image: linear-gradient(to bottom, white, #fcdfe8c4);
+    background-image: linear-gradient(to bottom, rgb(255, 0, 221), #ffffff);
     height: 108.94px;
     height: 60px;
 }
@@ -668,7 +668,15 @@ a {
         font-size: 10px;
     }
     .divm{
-        height: 396px;
+        height: 392px;
         box-sizing: border-box;
+    }
+    #fras{
+        height: 170px;
+        margin-top: -283px;
+        font-size: 30px;
+        color: white;
+        margin-left: 5px;
+        margin-right: 5px;
     }
 }
