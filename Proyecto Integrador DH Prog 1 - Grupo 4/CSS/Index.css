@@ -81,14 +81,20 @@ a {
     text-align: left;
 }
 
-.topnav a{display: none;}
+.topnav a{
+    display: none;
+}
+
   .topnav a.burger {
     float: right;
     display: block;
   }
 
 
-  .topnav.responsive {position: relative;}
+  .topnav.responsive {
+      position: relative;
+    }
+    
     .topnav.responsive .burger {
       position: absolute;
       right: 0;
@@ -98,6 +104,12 @@ a {
       float: none;
       display: block;
       text-align: left;
+    }
+
+    .topnav.responsive .busqueda2a {
+        margin-top: 11px;
+        padding-top: 3px;
+        padding-bottom: 3px;
     }
 
     #containerTopNav {

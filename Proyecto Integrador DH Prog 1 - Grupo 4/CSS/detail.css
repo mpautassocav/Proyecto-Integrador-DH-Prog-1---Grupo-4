@@ -247,6 +247,12 @@ a {
       text-align: left;
     }
 
+    .topnav.responsive .busqueda2a {
+        margin-top: 11px;
+        padding-top: 3px;
+        padding-bottom: 3px;
+    }
+
     #containerTopNav {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
