@@ -25,7 +25,6 @@ a {
    margin-top: 0px;
    margin-left: 10px;
    margin-right: 10px;
-   z-index: 10;
 }
 
 .divbusqueda2 {
@@ -74,6 +73,8 @@ a {
     float: right;
     display: block;
   }
+
+
   .topnav.responsive {position: relative;}
     .topnav.responsive .burger {
       position: absolute;
@@ -87,7 +88,6 @@ a {
     }
 
     #containerTopNav {
-        z-index: 10;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         margin-top: 5px;
@@ -115,6 +115,10 @@ a {
         display: none;
     }
 
+    .topnav.responsive #busqueda2b {
+        display: none;
+    }
+
                                                 /*Hasta acá Apple topnav*/
 
 
@@ -131,6 +135,19 @@ a {
     position: fixed;
     top: 0px;
     z-index: 10;
+}
+#global{
+    position: fixed;
+    top: 0px;
+    z-index: 10;
+    width: 100%;
+    background-color: #E4E0FF;
+    background-color: #e5f1f14d;
+    backdrop-filter: blur(5px);
+}
+.nada{
+    background-image: linear-gradient(to bottom,#ffd7e3,#ffcbcb);
+    height: 61.94px;
 }
 .logodiv{
     display: grid;
@@ -155,11 +172,10 @@ a {
 .footer{
     display: grid;
     grid-template-columns: 4fr 1fr;
-    background-color: #e5f1f14d;
     width: 100%;
-    margin-top: 390px;
+    margin-top: 30px;
     color: #6e6e73;
-    color: #1d1d1f;
+    background-color: #282024;
     font-family: 'Open Sans', sans-serif;
     font-size: 10px;
 }
@@ -286,4 +302,14 @@ a {
 }
 
 @media (min-width: 600px){
+    .footer{
+        display: grid;
+        grid-template-columns: 4fr 1fr;
+        width: 100%;
+        margin-top: 90px;
+        color: #6e6e73;
+        background-color: #282024;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 10px;
+    }
 }

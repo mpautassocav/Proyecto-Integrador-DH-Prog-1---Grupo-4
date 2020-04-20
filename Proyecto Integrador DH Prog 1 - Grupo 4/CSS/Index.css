@@ -234,11 +234,10 @@ a {
 .footer{
     display: grid;
     grid-template-columns: 4fr 1fr;
-    background-color: #e5f1f14d;
+    background-color: #282024;
     width: 100%;
-    margin-top: 390px;
+    margin-top: 100px;
     color: #6e6e73;
-    color: #1d1d1f;
     font-family: 'Open Sans', sans-serif;
     font-size: 10px;
 }
@@ -523,8 +522,8 @@ a {
     margin-top: 3px;
 }
 .nada{
-    background-color: #102c34;
-    height: 103.94px;
+    background-image: linear-gradient(to bottom,#ffd7e3,#ffcbcb);
+    height: 108.94px;
 }
 
 
@@ -616,10 +615,10 @@ a {
     .footer{
         display: grid;
         grid-template-columns: 4fr 1fr;
-        background-color: #282024;
         width: 100%;
         margin-top: 0px;
         color: #6e6e73;
+        background-color: #282024;
         font-family: 'Open Sans', sans-serif;
         font-size: 10px;
     }
