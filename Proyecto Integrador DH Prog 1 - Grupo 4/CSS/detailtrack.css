@@ -19,6 +19,14 @@ a {
     top: 0px;
     z-index: 10;
 }
+.playButton:hover{
+    border-radius: 4px;
+    background-color:  #d6d6d6b0;
+    margin: 14px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: 'Heebo', sans-serif;
+}
 #global{
     position: fixed;
     top: 0px;
@@ -136,11 +144,13 @@ a {
     font-size: 16px;
 }
 
-#textArtist a{
+.nombArt{
     color: #ff004cc4;
     font-weight: 500;
 }
-
+.nombAlb{
+    color: gray;
+}
 
 .containerPlayShuffle {
     margin-top: 10px;

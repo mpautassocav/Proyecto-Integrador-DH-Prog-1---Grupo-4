@@ -167,6 +167,14 @@ a {
     padding-bottom: 5px;
     font-family: 'Heebo', sans-serif;
 }
+.playButton:hover{
+    border-radius: 4px;
+    background-color:  #d6d6d6b0;
+    margin: 14px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: 'Heebo', sans-serif;
+}
 
 .artistName {
     color: #ff004cc4;
@@ -291,7 +299,7 @@ a {
     margin-right: auto;
     margin-top: 5px;
     width: 90%;
-    background-color: white;
+    background-color: #f0f0f0b0;
     height: 175px;
     border-radius: 5px;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;

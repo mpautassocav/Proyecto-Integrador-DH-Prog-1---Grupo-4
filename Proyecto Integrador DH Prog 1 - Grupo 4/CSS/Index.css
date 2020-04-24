@@ -509,7 +509,7 @@ a {
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 .canciones{
-    margin-top: auto;
+    margin-top: 5px;
     margin-bottom: auto;
     margin-left: 15px;
     font-family: 'Manrope', sans-serif;
@@ -645,10 +645,10 @@ a {
     .fotoalbum{
         display: grid;
         grid-template-columns: 1fr;
-        margin-top: 125px;
+        margin-top: 93px;
     }
     .extra{
-        margin-top: -65px;
+        margin-top: -95px;
     }
     body{
         background-color: #E4E0FF;
@@ -678,5 +678,38 @@ a {
         color: white;
         margin-left: 5px;
         margin-right: 5px;
+    }
+    #ranking_tracks{
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 5px;
+        width: 80%;
+        background-color: rgba(0, 0, 0, 0.048);
+        height: 428px;
+        border-radius: 5px;
+        display: none;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+    #ranking_playlist{
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 5px;
+        width: 80%;
+        background-color: rgba(0, 0, 0, 0.048);
+        height: 428px;
+        border-radius: 5px;
+        display: none;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+    #ranking_artists{
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 5px;
+        width: 80%;
+        background-color: rgba(0, 0, 0, 0.048);
+        height: 428px;
+        border-radius: 5px;
+        display: none;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     }
 }
