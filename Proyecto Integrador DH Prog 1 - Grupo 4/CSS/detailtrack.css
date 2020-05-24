@@ -266,6 +266,20 @@ a {
      #logoSoundWaves  {
          background-color: none;
      }
+
+     .sound {
+        position: absolute;
+        top: 17px;
+        left: 29%;
+        margin: auto;
+    }
+
+    .waves {
+        position: absolute;
+        top: 17px;
+        right: 29%;
+        margin: auto;
+    }
  
      .line3 {
          background-color: #ff004cc4;

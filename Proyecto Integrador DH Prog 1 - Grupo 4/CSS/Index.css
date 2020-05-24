@@ -71,6 +71,20 @@ a {
     background-color: none;
 }
 
+.sound {
+    position: absolute;
+    top: 17px;
+    left: 29%;
+    margin: auto;
+}
+
+.waves {
+    position: absolute;
+    top: 17px;
+    right: 29%;
+    margin: auto;
+}
+
 
 .divbusqueda2 {
     background-color: none;
