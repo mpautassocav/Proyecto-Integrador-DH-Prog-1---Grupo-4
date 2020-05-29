@@ -74,14 +74,14 @@ a {
 .sound {
     position: absolute;
     top: 17px;
-    left: 29%;
+    left: 27%;
     margin: auto;
 }
 
 .waves {
     position: absolute;
     top: 17px;
-    right: 29%;
+    right: 27%;
     margin: auto;
 }
 
@@ -293,7 +293,7 @@ a {
     grid-template-columns: 4fr 1fr;
     background-color: #282024;
     width: 100%;
-    margin-top: 100px;
+    margin-top: 0px;
     color: #6e6e73;
     font-family: 'Open Sans', sans-serif;
     font-size: 10px;
@@ -559,7 +559,7 @@ a {
     display: none;
 }
 .trending{
-    margin-top: 205px;
+    margin-top: -8px;
     margin-bottom: 5px;
     margin-left: auto;
     margin-right: auto;
@@ -582,6 +582,12 @@ a {
 
 .container{
     margin-top: 3px;
+}
+.tocaico{
+    text-align: center;
+    font-size: 10px;
+    margin-top: 145px;
+    color: rgb(78, 78, 78);
 }
 
 
@@ -626,6 +632,121 @@ a {
     width: 100%;
 }
 
+.tresgru{
+    margin-top: 40px;
+    margin-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 30px;
+    width: 99%;
+    background-color: #ff004cc4;
+    border-radius: 500px;
+    text-align: center;
+    font-family: 'Manrope', sans-serif;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.tresgrudos{
+    font-size: 14px;
+    width: 98%;
+    margin: auto;
+    font-family: 'Heebo', sans-serif;
+    color: rgb(255, 255, 255);
+}
+.toca{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 15px;
+    width: 100%;
+    background-color: #ddd;
+    text-align: center;
+    font-family: 'Manrope', sans-serif;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.tocacir{
+    font-size: 12px;
+    width: 90%;
+    margin: auto;
+    font-family: 'Heebo', sans-serif;
+    color: #ff004cc4;
+}
+
+/* Slideshow container */
+.slideshow-container {
+    position: relative;
+    background-image: linear-gradient(to bottom, #ddd, #ccccccf1, #ddd);
+  }
+  
+  /* Slides */
+  .mySlides {
+    display: none;
+    padding: 5px 50px 5px 50px;
+    text-align: center;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -30px;
+    padding: 16px;
+    color: #888;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    position: absolute;
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+    color: white;
+  }
+  
+  /* The dot/bullet/indicator container */
+  .dot-container {
+    text-align: center;
+    padding: 20px;
+    background: #ddd;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  /* Add a background color to the active dot/circle */
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  
+  /* Add an italic font style to all quotes */
+  q {font-style: italic;}
+  
+  /* Add a blue color to the author */
+  .author {color: cornflowerblue;}
+
 @media (min-width: 600px){
     .container{
         margin-top: 20px;
@@ -638,7 +759,7 @@ a {
         grid-template-columns: 1fr 1.15fr;
     }
     .trending{
-        margin-top: 205px;
+        margin-top: -3px;
         margin-left: auto;
         margin-right: auto;
         height: 29px;
@@ -650,6 +771,12 @@ a {
         text-align: center;
         display: grid;
         grid-template-columns: 1fr;
+    }
+    .tocaico{
+        text-align: center;
+        font-size: 8px;
+        margin-top: 205px;
+        color: rgb(78, 78, 78);
     }
     .tend{
         margin: auto;
