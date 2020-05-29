@@ -163,3 +163,35 @@ function artsi(){
         arts.style.display="grid";
     }
 }
+
+
+/* api-deezer */
+/*
+fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/chart")
+    .then(function(respuesta){
+        return respuesta.json();
+    })
+    .then(function(datos){
+
+        let chart = datos
+        console.log(chart)
+        let playlists = datos.playlists.data;
+        console.log(playlists)
+
+
+        let queonda = document.querySelector(".nuevaplaylist")
+        
+        for (const playlist of playlists) {
+            
+            queonda.innerHTML += `${playlist.title}`
+
+        }
+
+
+
+
+
+
+    })
+*/
+/* fin api-deezer */
