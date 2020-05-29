@@ -179,8 +179,25 @@ fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/chart")
             <div id="track" class="nuevaplaylist"> ${playlist.title}</div>
             <img src="${playlist.picture}" height="35px" id="track-image"></div>`;
         }
-
+        let tracks=datos.tracks.data;
+        let contenedortracks = document.querySelector('#ranking_tracks');
+        for (const track of tracks) {
+            contenedortracks.innerHTML += `<a href="DETAIL-TRACK.html">
+            <div class="canciones" >
+            <div id="track">${track.title}</div>
+            <img src="./Imagenes/music-solid.svg" height="15px" id="track-image">
+            </div>
+            </a>`;
+        }
+        let artists=datos.artists.data;
+        let contenedorartists = document.querySelector('#ranking_artists');
+        for (const artist of artists) {
+            contenedorartists.innerHTML += `<a href="detailArtist.html">
+            <div class="canciones" >
+            <div id="track">${artist.name}</div>
+            <img src="${artist.picture}" height="35px" id="track-image">
+            </div></a>`;
+        }
     })
-    
 
 /* fin api-deezer */
