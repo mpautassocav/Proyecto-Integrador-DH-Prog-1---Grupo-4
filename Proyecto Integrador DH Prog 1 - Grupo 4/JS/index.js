@@ -166,32 +166,21 @@ function artsi(){
 
 
 /* api-deezer */
-/*
+
 fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/chart")
     .then(function(respuesta){
         return respuesta.json();
     })
     .then(function(datos){
-
-        let chart = datos
-        console.log(chart)
-        let playlists = datos.playlists.data;
-        console.log(playlists)
-
-
-        let queonda = document.querySelector(".nuevaplaylist")
-        
+        let playlists=datos.playlists.data;
+        let contenedorplaylists = document.querySelector('#ranking_playlist');
         for (const playlist of playlists) {
-            
-            queonda.innerHTML += `${playlist.title}`
-
+            contenedorplaylists.innerHTML += `<div class="canciones" >
+            <div id="track" class="nuevaplaylist"> ${playlist.title}</div>
+            <img src="${playlist.picture}" height="35px" id="track-image"></div>`;
         }
 
-
-
-
-
-
     })
-*/
+    
+
 /* fin api-deezer */
