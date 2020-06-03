@@ -9,6 +9,30 @@ a {
     text-decoration: none;
     color: black;
 }
+.redes:hover{
+    background-color: #5c5257;
+}
+.redes{
+    background-color: #3b3136;
+    width: 50%;
+    height: 40px;
+    border-radius: 5px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+}
+.nombres{
+    margin-top: 30px;
+}
+.nomylogo{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+.logored{
+    margin: auto;
+}
+
 .header{
     box-sizing: border-box;
     background-color: #102c34;
@@ -61,7 +85,7 @@ a {
 }
 .footer{
     display: grid;
-    grid-template-columns: 4fr 1fr;
+    grid-template-rows: 1fr 2fr;
     width: 100%;
     margin-top: 180px;
     color: #6e6e73;
@@ -75,7 +99,7 @@ a {
     margin-left: 8px;
 }
 .logodeez{
-    margin-top: 8px;
+    margin-top: 20px;
 }
 .divbusqueda {
     margin-top: 90px;
@@ -185,6 +209,10 @@ a {
 .genreName {
     color: gray;
 }
+.duracion{
+    color: rgb(0, 0, 0);
+    font-size: 12px;
+}
 #myTopnav {
     margin-top: 0px;
     margin-left: 10px;
@@ -270,14 +298,14 @@ a {
      .sound {
         position: absolute;
         top: 17px;
-        left: 29%;
+        left: 25%;
         margin: auto;
     }
 
     .waves {
         position: absolute;
         top: 17px;
-        right: 29%;
+        right: 25%;
         margin: auto;
     }
  
@@ -301,7 +329,7 @@ a {
 @media (min-width: 600px){
     .footer{
         display: grid;
-        grid-template-columns: 4fr 1fr;
+        grid-template-rows: 1fr 2fr;
         width: 100%;
         margin-top: 270px;
         color: #6e6e73;
