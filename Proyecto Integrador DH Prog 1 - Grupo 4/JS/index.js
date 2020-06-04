@@ -192,7 +192,7 @@ fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/chart")
         let artists=datos.artists.data;
         let contenedorartists = document.querySelector('#ranking_artists');
         for (const artist of artists) {
-            contenedorartists.innerHTML += `<a href="detailArtist.html">
+            contenedorartists.innerHTML += `<a href="detailArtist.html?=${artist.id}">
             <div class="canciones" >
             <div id="track">${artist.name}</div>
             <img src="${artist.picture}" height="35px" id="track-image">
