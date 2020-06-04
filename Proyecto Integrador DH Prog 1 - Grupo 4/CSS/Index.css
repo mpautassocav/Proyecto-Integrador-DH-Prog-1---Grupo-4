@@ -520,8 +520,8 @@ a {
     background-color: rgba(0, 0, 0, 0.048);
     height: 460px;
     border-radius: 5px;
-    display: none;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    display: none;
 }
 #ranking_playlist{
     margin-left: auto;
@@ -531,7 +531,7 @@ a {
     background-color: rgba(0, 0, 0, 0.048);
     height: 460px;
     border-radius: 5px;
-    display: none;
+    /*display: none;*/
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 #ranking_artists{
@@ -851,8 +851,8 @@ a {
         background-color: rgba(0, 0, 0, 0.048);
         height: 428px;
         border-radius: 5px;
-        display: none;
         grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        display: none;
     }
     #ranking_playlist{
         margin-left: auto;
@@ -862,7 +862,7 @@ a {
         background-color: rgba(0, 0, 0, 0.048);
         height: 428px;
         border-radius: 5px;
-        display: none;
+        /*display: none;*/
         grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     }
     #ranking_artists{
