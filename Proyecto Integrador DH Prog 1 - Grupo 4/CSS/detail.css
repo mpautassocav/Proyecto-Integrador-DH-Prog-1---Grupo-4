@@ -132,7 +132,7 @@ a {
 
 #imageArtist {
     color: white;
-    background-image: url(../Imagenes/homebound.jpg);
+    /*background-image: url(../Imagenes/homebound.jpg);*/
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
