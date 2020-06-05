@@ -12,8 +12,8 @@ fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/artist/" + art
         let contenedorimg = document.querySelector('#imageArtistt');
         console.log(datos)
         contenedorimg.innerHTML += `<img src="${datos.picture}" id="track-image">`;
-        let contenedorname = document.querySelector('.albumName');
-        contenedorname.innerHTML +=  `${datos.nb_fans}`+"Fans";
+        let contenedorfans = document.querySelector('.artistName');
+        contenedorfans.innerHTML +=  `${datos.nb_fan}`+" Fans";
     })
     .catch(function(error){
         console.log(error)

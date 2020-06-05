@@ -147,14 +147,12 @@ a {
 
 #imageArtist {
     color: white;
-    background-image: url(../Imagenes/Badbunny.jpg);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
     border-radius: 4px;
     margin: 10px;
     margin-left: 6px;
-    padding: 75px;
     box-sizing: border-box;
 }
 
