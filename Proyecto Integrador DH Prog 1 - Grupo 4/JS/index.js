@@ -199,6 +199,9 @@ fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/chart")
             </div></a>`;
         }
     })
+    .catch(function(error){
+        console.log(error)
+    });
 
 /* fin api-deezer */
 var slideIndex = 1;
