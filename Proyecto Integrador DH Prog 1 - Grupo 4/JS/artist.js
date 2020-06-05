@@ -1,19 +1,19 @@
 var queryString = window.location.search;
 var queryStringObj = new URLSearchParams(queryString);
 let artistid = queryStringObj.get("id")
-
+console.log(artistid)
 fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/artist/" + artistid)
     .then(function(respuesta){
         return respuesta.json();
     })
     .then(function(datos){
-       
-        let contenedorartist = document.querySelector('.containerArtist');
-        contenedorartist.innerHTML += `<div id="imageArtistt"></div>
-            <div id="textArtist">
-                <div class="albumName">Canserbero</div>
-                <div class="artistName"> 1.994.932 Fans</div>
-            </div>`;
+        let contenedorname = document.querySelector('.albumName');
+        contenedorname.innerHTML +=  `${datos.name}`;
+        let contenedorimg = document.querySelector('#imageArtistt');
+        console.log(datos)
+        contenedorimg.innerHTML += `<img src="${datos.picture}" id="track-image">`;
+        let contenedorname = document.querySelector('.albumName');
+        contenedorname.innerHTML +=  `${datos.nb_fans}`+"Fans";
     })
     .catch(function(error){
         console.log(error)

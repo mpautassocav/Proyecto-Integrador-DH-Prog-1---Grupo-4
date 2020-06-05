@@ -144,14 +144,14 @@ a {
 }
 #imageArtistt {
     color: white;
-    background-image: url(../Imagenes/canserbero.jpg);
+    /*background-image: url(../Imagenes/canserbero.jpg);*/
+    width: 100%;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
     border-radius: 4px;
     margin: 10px;
     margin-left: 6px;
-    padding: 75px;
     box-sizing: border-box;
 }
 
