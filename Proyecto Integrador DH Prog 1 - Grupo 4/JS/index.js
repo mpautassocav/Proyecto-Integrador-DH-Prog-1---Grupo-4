@@ -173,12 +173,13 @@ fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/chart")
     })
     .then(function(datos){
         console.log(datos)
-        let playlists=datos.playlists.data;
-        let contenedorplaylists = document.querySelector('#ranking_playlist');
-        for (const playlist of playlists) {
-            contenedorplaylists.innerHTML += `<div class="canciones" >
-            <div id="track" class="nuevaplaylist"> ${playlist.title}</div>
-            <img src="${playlist.picture}" height="35px" id="track-image"></div>`;
+        let albums=datos.albums.data;
+        let contenedoralbums = document.querySelector('#ranking_playlist');
+        for (const album of albums) {
+            contenedoralbums.innerHTML += `<a href="detailAlbum.html?id=${album.id}">
+            <div class="canciones" >
+            <div id="track" class="nuevaplaylist"> ${album.title}</div>
+            <img src="${album.cover}" height="35px" id="track-image"></div></a>`;
         }
         let tracks=datos.tracks.data;
         let contenedortracks = document.querySelector('#ranking_tracks');
