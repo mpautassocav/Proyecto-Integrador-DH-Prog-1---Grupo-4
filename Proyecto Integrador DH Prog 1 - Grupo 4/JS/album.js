@@ -13,9 +13,7 @@ fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/album/" + albu
         let contenedorartista = document.querySelector('.artistName');
         contenedorartista.innerHTML +=  `${datos.artist.name}`;
         let contenedorimg = document.querySelector('#imageArtist');
-        contenedorimg.innerHTML += `<img src="${datos.album.cover}" id="track-image">`;
-        let contenedordate = document.querySelector('.genreName');
-        contenedordate.innerHTML += `${datos.album.title}`+" - "+`${datos.album.release_date}`;
+        contenedorimg.innerHTML += `<img src="${datos.cover}" id="track-image">`;
     })
     .catch(function(error){ 
         console.log(error)
