@@ -17,7 +17,15 @@ fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/track/" + trac
         let contenedordate = document.querySelector('.genreName');
         contenedordate.innerHTML += `${datos.album.title}`+" - "+`${datos.album.release_date}`;
         let contenedordur = document.querySelector('.duracion');
-        contenedordur.innerHTML += datos.duration/60;
+        function secondsToString(seconds) {
+            var minute = Math.floor((seconds / 60) % 60);
+            minute = (minute < 10)? '0' + minute : minute;
+            var second = seconds % 60;
+            second = (second < 10)? '0' + second : second;
+            return minute + ':' + second;
+        }
+        var largo = datos.duration
+        contenedordur.innerHTML += secondsToString(largo);
     })
     .catch(function(error){
         console.log(error)

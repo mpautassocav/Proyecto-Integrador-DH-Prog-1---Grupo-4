@@ -13,7 +13,13 @@ fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/artist/" + art
         console.log(datos)
         contenedorimg.innerHTML += `<img src="${datos.picture}" id="track-image">`;
         let contenedorfans = document.querySelector('.artistName');
-        contenedorfans.innerHTML +=  `${datos.nb_fan}`+" Fans";
+        function format(n, sep) {
+            sep = sep || "."; // Default to period as decimal separator
+     
+            return n.toLocaleString().split(sep)[0]
+                + sep
+        }
+        contenedorfans.innerHTML +=  format(datos.nb_fan,"   ") +" Fans";
     })
     .catch(function(error){
         console.log(error)
