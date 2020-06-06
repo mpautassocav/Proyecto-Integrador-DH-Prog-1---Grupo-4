@@ -1,6 +1,6 @@
 body{
     background-color: #E4E0FF;
-    background-color: #e5f1f14d;
+    background-color: #81a7a74d;
     margin: 0px;
     width: 100%;
     font-family: 'Manrope', sans-serif;
@@ -555,6 +555,7 @@ a {
 }
 #track-image{
     margin: auto;
+    border-radius: 2px;
 }
 #track{
     margin-top: auto;

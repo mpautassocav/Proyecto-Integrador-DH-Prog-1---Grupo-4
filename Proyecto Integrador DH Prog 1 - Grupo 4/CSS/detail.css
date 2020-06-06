@@ -364,6 +364,7 @@ a {
 
 #track-image{
     margin: auto;
+    border-radius: 5px;
 }
 
 .header{

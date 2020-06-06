@@ -12,6 +12,9 @@ a {
 .redes:hover{
     background-color: #5c5257;
 }
+#track-image{
+    border-radius: 5px;
+}
 .redes{
     background-color: #3b3136;
     width: 50%;
