@@ -12,6 +12,14 @@ fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/genre")
             }
         }
     })
+    fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/" + genreid + "/artists")
+        .then(function(respuesta){
+            return respuesta.json();
+        })
+        .then(function(datos){
+            console.log(datos)
+            
+        })
     .catch(function(error){
         console.log(error)
     });

@@ -14,6 +14,20 @@ fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/genre/" + genr
         contenedornombre.innerHTML += `${datos.name}`;
         
     })
+fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/genre/" + genreid + "/artists")
+    .then(function(respuesta){
+        return respuesta.json();
+    })
+    .then(function(datos){
+        console.log(datos)
+        let nombreArtists = datos.data;
+        let contenedorgenreartist = document.querySelector('#ranking_tracks');
+        for (const nombreArtist of nombreArtists) {
+            contenedorgenreartist.innerHTML += `
+            <div class="canciones" > <a href="DETAIL-TRACK.html"><div id="track"> ${nombreArtist.name} </div></a> <img src="Imagenes/image-solid.svg" height="35px" id="track-image"></div>`;
+        }
+       
+    })
     .catch(function(error){
         console.log(error)
     })

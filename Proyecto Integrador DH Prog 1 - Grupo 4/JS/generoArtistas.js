@@ -1,4 +1,4 @@
-var queryString = window.location.search;
+/* var queryString = window.location.search;
 var queryStringObj = new URLSearchParams(queryString);
 let genreid = queryStringObj.get("id")
 console.log(genreid)
@@ -12,4 +12,4 @@ fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/" + genreid + 
     })
     .catch(function(error){
         console.log(error)
-    })
+    }) */
