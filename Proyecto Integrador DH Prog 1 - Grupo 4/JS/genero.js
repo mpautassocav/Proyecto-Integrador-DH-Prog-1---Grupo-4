@@ -10,6 +10,8 @@ fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/genre/" + genr
         console.log(datos)
         let contenedorimg = document.querySelector('#imageArtist');
         contenedorimg.innerHTML += `<img src="${datos.picture}" id="track-image">`;
+        let contenedornombre = document.querySelector('.nombreGenero');
+        contenedornombre.innerHTML += `${datos.name}`;
         
     })
     .catch(function(error){

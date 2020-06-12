@@ -26,6 +26,12 @@ fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/track/" + trac
         }
         var largo = datos.duration
         contenedordur.innerHTML += secondsToString(largo);
+        let contenedoraudio = document.querySelector('.audio');
+        contenedoraudio.innerHTML +=  `<audio controls>
+        <source src="${datos.preview}" type="audio/ogg">
+        <source src="horse.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+      </audio>`;
     })
     .catch(function(error){
         console.log(error)
