@@ -3,72 +3,108 @@
 <head>
     <meta charset="UTF-8">
     <link rel="icon" type="image/png" href="Imagenes/logocool.png">
-    <link href="https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Heebo:500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Manrope&display=swap" rel="stylesheet">
-    <link type="text/css" href="CSS/detail.css" rel="stylesheet"></link>
+    <link href="https://fonts.googleapis.com/css?family=Heebo:500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/generos.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Detalle Album</title>
-</head>
-<body>
-
-    <div id="global">
-        <div id="containerTopNav">
-            <div><a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                <div class="burger">
-                    <div class="line1"></div>
-                    <div class="line2"></div>
-                </div>
-              </a>
+    <title>Generos</title>
+</head> 
+<body> 
+<div id="global">
+    <div id="containerTopNav">
+        <div><a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
             </div>
-            <div class="sound">Sound</div>
-            <div id="logoSoundWaves">
-                <a href="Index.html"><div class="logodiv"><img src="Imagenes/logocool.png" width="45px" class="logo"></div></a>
-            </div>
-            <div class="waves">Waves</div>
-            <div class="playlist" id="botones">
-                <a href="playlist.html" title="Playlist"><img src="Imagenes/list-ul-solid.svg" width="20px"></a>
-            </div>
+          </a>
         </div>
-            
-            <div class="topnav" id="myTopnav">
-                <div class="line3"></div>
-                <a href="#"><div class="divbusqueda2">
-                    <div class="busqueda2a">
-                        <img src="Imagenes/search-solid (1).svg" width="10px" class="lupa">
-                        <input type="text" placeholder="Buscar" class="busqueda">
-                    </div>
-                </div></a>
-              <a href="Index.html">Home</a>
-              <div class="line"></div>
-              <a href="playlist.html">Playlist</a>
-              <div class="line"></div>
-              <a href="#">Géneros</a>
-              <div class="line"></div>
-              <a href="DETAIL-TRACK.html">Detail Track</a>
-              <div class="line"></div>
-              <a href="detailArtist.html">Detail Artist</a>
-              <div class="line"></div>
-              <a href="detailAlbum.html">Detail Album</a>
-              <div class="line"></div>
-            </div>
-    
-            <script>
-                function myFunction() {
-                  var x = document.getElementById("myTopnav");
-                  if (x.className === "topnav") {
-                    x.className += " responsive";
-                  } else {
-                    x.className = "topnav";
-                  }
-                }
-            </script>
+        <div class="sound">Sound</div>
+        <div id="logoSoundWaves">
+            <a href="Index.html"><div class="logodiv"><img src="Imagenes/logocool.png" width="45px" class="logo"></div></a>
+        </div>
+        <div class="waves">Waves</div>
+        <div class="playlist" id="botones">
+            <a href="playlist.html" title="Playlist"><img src="Imagenes/list-ul-solid.svg" width="20px"></a>
+        </div>
     </div>
-    <div class="nada"></div> 
+        
+        <div class="topnav" id="myTopnav">
+            <div class="line3"></div>
+            <a href="#"><div class="divbusqueda2">
+                <div class="busqueda2a">
+                    <img src="Imagenes/search-solid (1).svg" width="10px" class="lupa">
+                    <input type="text" placeholder="Buscar" class="busqueda">
+                </div>
+            </div></a>
+          <a href="Index.html">Home</a>
+          <div class="line"></div>
+          <a href="playlist.html">Playlist</a>
+          <div class="line"></div>
+          <a href="detalleGenero.html">Detail Género</a>
+          <div class="line"></div>
+          <a href="DETAIL-TRACK.html">Detail Track</a>
+          <div class="line"></div>
+          <a href="detailArtist.html">Detail Artist</a>
+          <div class="line"></div>
+          <a href="detailAlbum.html">Detail Album</a>
+          <div class="line"></div>
+        </div>
 
-    
+        <script>
+            function myFunction() {
+              var x = document.getElementById("myTopnav");
+              if (x.className === "topnav") {
+                x.className += " responsive";
+              } else {
+                x.className = "topnav";
+              }
+            }
+        </script>
+</div>
+<div class="nada"></div>
+
+<!--
+    <div class="header">
+        <a href="Index.html" title="SoundWaves" ><div class="logodiv"><img src="Imagenes/Logo.jpg" width="45px" class="logo"></div></a>
+        <div class="botonesdiv">
+            <div class="home" id="botones">
+                <a href="Index.html" title="Inicio"><img src="Imagenes/home-solid.svg" width="20px"></a>
+            </div>
+            <div class="playlist" id="botones">
+                <a href="playlist.html" title="Playlist" ><img src="Imagenes/list-ul-solid.svg" width="20px"></a>
+            </div>
+            <div class="generos" id="botones">
+                <a href="" title="Generos" ><img src="Imagenes/compact-disc-solid.svg" width="20px"></a>
+            </div> 
+        </div>   
+    </div>
+    <div class="divbusqueda">
+        <div class="busqueda2">
+            <img src="Imagenes/search-solid (1).svg" width="10px" class="lupa">
+            <input type="text" placeholder="Buscar" class="busqueda">
+        </div>
+    </div>
+    -->
+    <div class="container">
+            <div id="playlist">
+                <h1>Generos</h1>
+            </div>
+    </div>
+    <div id="ranking_tracks">
+        <div class="canciones" > <a href="DETAIL-TRACK.html"><div id="track">Track 1</div></a> <img src="Imagenes/image-solid.svg" height="35px" id="track-image"></div>
+        <div class="canciones" > <a href="DETAIL-TRACK.html"><div id="track">Track 2</div></a> <img src="Imagenes/image-solid.svg" height="35px" id="track-image"></div>
+        <div class="canciones" > <a href="DETAIL-TRACK.html"><div id="track">Track 3</div></a> <img src="Imagenes/image-solid.svg" height="35px" id="track-image"></div>
+        <div class="canciones" > <a href="DETAIL-TRACK.html"><div id="track">Track 4</div></a> <img src="Imagenes/image-solid.svg" height="35px" id="track-image"></div>
+        <div class="canciones" > <a href="DETAIL-TRACK.html"><div id="track">Track 5</div></a> <img src="Imagenes/image-solid.svg" height="35px" id="track-image"></div>
+        <div class="canciones" > <a href="DETAIL-TRACK.html"><div id="track">Track 6</div></a> <img src="Imagenes/image-solid.svg" height="35px" id="track-image"></div>
+        <div class="canciones" > <a href="DETAIL-TRACK.html"><div id="track">Track 7</div></a> <img src="Imagenes/image-solid.svg" height="35px" id="track-image"></div>
+        <div class="canciones" > <a href="DETAIL-TRACK.html"><div id="track">Track 8</div></a> <img src="Imagenes/image-solid.svg" height="35px" id="track-image"></div>
+        <div class="canciones" > <a href="DETAIL-TRACK.html"><div id="track">Track 9</div></a> <img src="Imagenes/image-solid.svg" height="35px" id="track-image"></div>
+        <div class="canciones" > <a href="DETAIL-TRACK.html"><div id="track">Track 10</div></a> <img src="Imagenes/image-solid.svg" height="35px" id="track-image"></div>
+    </div>
     <div class="footer">
         <div class="redes">
             <a  class="logored" href="https://www.instagram.com/?hl=es-la"><img src="Imagenes/instagram.svg" width="30px"></a>
@@ -88,6 +124,5 @@
             </div>
         </div>
     </div>
-
 </body>
 </html>

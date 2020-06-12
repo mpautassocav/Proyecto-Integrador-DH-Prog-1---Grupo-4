@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/png" href="Imagenes/logocool.png">
+    <link href="https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Heebo:500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Manrope&display=swap" rel="stylesheet">
+    <link type="text/css" href="CSS/detail.css" rel="stylesheet"></link>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalle Album</title>
+</head>
+<body>
+
+    <div id="global">
+        <div id="containerTopNav">
+            <div><a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <div class="burger">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                </div>
+              </a>
+            </div>
+            <div class="sound">Sound</div>
+            <div id="logoSoundWaves">
+                <a href="Index.html"><div class="logodiv"><img src="Imagenes/logocool.png" width="45px" class="logo"></div></a>
+            </div>
+            <div class="waves">Waves</div>
+            <div class="playlist" id="botones">
+                <a href="playlist.html" title="Playlist"><img src="Imagenes/list-ul-solid.svg" width="20px"></a>
+            </div>
+        </div>
+            
+            <div class="topnav" id="myTopnav">
+                <div class="line3"></div>
+                <a href="#"><div class="divbusqueda2">
+                    <div class="busqueda2a">
+                        <img src="Imagenes/search-solid (1).svg" width="10px" class="lupa">
+                        <input type="text" placeholder="Buscar" class="busqueda">
+                    </div>
+                </div></a>
+              <a href="Index.html">Home</a>
+              <div class="line"></div>
+              <a href="playlist.html">Playlist</a>
+              <div class="line"></div>
+              <a href="#">Géneros</a>
+              <div class="line"></div>
+              <a href="DETAIL-TRACK.html">Detail Track</a>
+              <div class="line"></div>
+              <a href="detailArtist.html">Detail Artist</a>
+              <div class="line"></div>
+              <a href="detailAlbum.html">Detail Album</a>
+              <div class="line"></div>
+            </div>
+    
+            <script>
+                function myFunction() {
+                  var x = document.getElementById("myTopnav");
+                  if (x.className === "topnav") {
+                    x.className += " responsive";
+                  } else {
+                    x.className = "topnav";
+                  }
+                }
+            </script>
+    </div>
+    <div class="nada"></div> 
+
+    
+    <div class="footer">
+        <div class="redes">
+            <a  class="logored" href="https://www.instagram.com/?hl=es-la"><img src="Imagenes/instagram.svg" width="30px"></a>
+            <a  class="logored" href="https://www.facebook.com/"><img src="Imagenes/facebook.svg" width="30px"></a>
+            <a  class="logored" href="https://twitter.com/home?logout=1583781519153"><img src="Imagenes/twitter.svg" width="30px"></a>
+            <a  class="logored" href="https://ar.pinterest.com/"><img src="Imagenes/pinterest.svg" width="30px"></a>
+        </div>
+        <div class="nomylogo">
+            <div class="nombres">
+                <div id="name">Mateo Pautasso Cavanagh</div>
+                <div id="name">Francisco Seidman</div>
+                <div id="name">Lucas Ruiz Coines</div>
+                <div id="name">Copyright © 2020 SoundWaves. All rights reserved.</div>
+            </div>
+            <div>
+                <img src="Imagenes/Logodeez.png" width="65px" class="logodeez">
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

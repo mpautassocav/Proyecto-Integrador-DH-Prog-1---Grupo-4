@@ -1,0 +1,396 @@
+body{
+    background-color:#E4E0FF;
+    background-color: #e5f1f14d;
+    margin: 0px;
+    width: 100%;
+    font-family: Helvetica, Arial, sans-serif;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.container {
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.redes:hover{
+    background-color: #5c5257;
+}
+.redes{
+    background-color: #3b3136;
+    width: 50%;
+    height: 40px;
+    border-radius: 5px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+}
+.nombres{
+    margin-top: 30px;
+}
+.nomylogo{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+.logored{
+    margin: auto;
+}
+
+
+                                                     /*Apple topnav*/
+
+#myTopnav {
+   margin-top: 0px;
+   margin-left: 10px;
+   margin-right: 10px;
+}
+
+.divbusqueda2 {
+    background-color: none;
+    margin-top: 10px;
+    height: 23px;
+    width: 100%;
+    display: grid;
+    padding-bottom: 5px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    margin-bottom: 10px;
+}
+
+.busqueda2a {
+    display: grid;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    grid-template-columns: 1fr 9fr;
+    border-radius: 200px;
+    border: solid 1px gray;
+    background-color: white;
+    
+}
+
+
+.burger {
+    cursor: pointer;
+    text-align: left;
+    position: absolute;
+    left: 11%;
+    top: 20px;
+}
+
+.burger div {
+    width: 25px;
+    height: 1px;
+    background-color: black;
+    margin: 5px;
+    text-align: left;
+}
+
+.topnav a{display: none;}
+  .topnav a.burger {
+    float: right;
+    display: block;
+  }
+
+
+  .topnav.responsive {position: relative;}
+    .topnav.responsive .burger {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .topnav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+
+    .topnav.responsive .busqueda2a {
+        margin-top: 11px;
+        padding-top: 3px;
+        padding-bottom: 3px;
+    }
+
+    #containerTopNav {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin-top: 5px;
+        margin-bottom: 10px;
+    }
+
+    #logoSoundWaves  {
+        background-color: none;
+    }
+
+    .sound {
+        position: absolute;
+        top: 17px;
+        left: 25%;
+        margin: auto;
+    }
+
+    .waves {
+        position: absolute;
+        top: 17px;
+        right: 25%;
+        margin: auto;
+    }
+
+    .line3 {
+        background-color: #ff004cc4;
+        height: 1px;
+        margin: 1px;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .topnav.responsive .line {
+        height: 1px;
+        background-color: #ecc8d3e1;
+    }
+
+    .topnav.responsive .line3 {
+        display: none;
+    }
+
+    .topnav.responsive #busqueda2b {
+        display: none;
+    }
+
+                                                /*Hasta acá Apple topnav*/
+
+
+
+
+
+
+.header{
+    box-sizing: border-box;
+    background-color: #102c34;
+    width: 100%;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    position: fixed;
+    top: 0px;
+    z-index: 10;
+}
+#global{
+    position: fixed;
+    top: 0px;
+    z-index: 10;
+    width: 100%;
+    background-color: #E4E0FF;
+    background-color: #e5f1f14d;
+    backdrop-filter: blur(5px);
+    background-color: rgba(255, 255, 255, 0.884);
+}
+.nada{
+    background-image: linear-gradient(to bottom, rgb(255, 0, 221), #ffffff);
+    height: 61.94px;
+}
+.logodiv{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.logo{
+    margin-left: auto;
+    margin-right: auto;
+}
+.botonesdiv{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#botones{
+        position: absolute;
+        top: 20px;
+        right: 12.5%;
+        margin: auto;
+    }
+    
+.footer{
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+    width: 100%;
+    margin-top: 30px;
+    color: #6e6e73;
+    background-color: #282024;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 10px;
+}
+
+
+.footerp{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    background-color: #518594;
+    width: 100%;
+    margin-top: 60px;
+    color: rgb(204, 204, 204);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 10px;
+}
+#name{
+    margin-top: 3px;
+    margin-bottom: 3px;
+    margin-left: 8px;
+}
+.logodeez{
+    margin-top: 20px;
+}
+.divbusqueda {
+    margin-top: 90px;
+    height: 23px;
+    width: 100%;
+    background-color: #102c34;
+    display: grid;
+    padding-bottom: 5px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+}
+.busqueda2{
+    display: grid;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    grid-template-columns: 1fr 9fr;
+    border-radius: 200px;
+    background-color: white;
+}
+.lupa{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 30%;
+}
+.busqueda{
+    margin: 0% 20% 0% 5%;
+    border-width: 0px;
+    border-radius: 200px;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+#playlist {
+    color: #ff004cc4;
+    font-family: 'Heebo', sans-serif;
+    font-size: 40px;
+}
+
+#ranking_tracks{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    width: 90%;
+    background-color:#f0f0f0b0;
+    height: 350px;
+    border-radius: 5px;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+#ranking_tracks a{
+    text-decoration: none;
+    color: black;
+    margin-top: 10px;
+}
+
+.canciones{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 15px;
+    font-family: 'Manrope', sans-serif;
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+}
+
+#track{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#track-image{
+    margin: auto;
+}
+
+#aleatoria {
+    color: antiquewhite;
+    text-align: center;
+    padding: 10px;
+    background-color: #ff004cc4;
+    border-radius: 20px;
+    height: 20px;
+    width: 225px;
+    font-family: 'Heebo', sans-serif
+}
+#aleatoria:hover {
+    color: antiquewhite;
+    text-align: center;
+    padding: 10px;
+    background-color: #ff3370c4;
+    border-radius: 20px;
+    height: 20px;
+    width: 225px;
+    font-family: 'Heebo', sans-serif
+}
+
+#agregarCanciones {
+    color: rgba(41, 41, 41, 0.459);
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 40px;
+    border: 1px solid;
+    border-color: #ff004cc4;
+    background-color: transparent;
+    height: 25px;
+    width: 180px;
+    display: grid;
+    grid-template-columns: 1fr;
+    font-family: 'Heebo', sans-serif
+}
+#agregarCanciones:hover{
+    color: rgba(41, 41, 41, 0.459);
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 40px;
+    border: 1px solid;
+    border-color: #ff004cc4;
+    background-color: #ff919118;
+    height: 25px;
+    width: 180px;
+    display: grid;
+    grid-template-columns: 1fr;
+    font-family: 'Heebo', sans-serif
+}
+.agcanc{
+    margin: auto;
+}
+
+@media (min-width: 600px){
+    .footer{
+        display: grid;
+        grid-template-rows: 1fr 2fr;
+        width: 100%;
+        margin-top: 90px;
+        color: #6e6e73;
+        background-color: #282024;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 10px;
+    }
+    #ranking_tracks{
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+        width: 80%;
+        background-color:#f0f0f0b0;
+        height: 350px;
+        border-radius: 5px;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+}
