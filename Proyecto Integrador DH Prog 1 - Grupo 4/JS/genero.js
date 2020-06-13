@@ -22,10 +22,16 @@ fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/genre/" + genr
         console.log(datos)
         let nombreArtists = datos.data;
         let contenedorgenreartist = document.querySelector('#ranking_tracks');
+        let contador = 0;
         for (const nombreArtist of nombreArtists) {
             contenedorgenreartist.innerHTML += `
             <div class="canciones" > <a href="DETAIL-TRACK.html"><div id="track"> ${nombreArtist.name} </div></a> <img src="Imagenes/image-solid.svg" height="35px" id="track-image"></div>`;
+            contador ++;
+            if (contador == 10){
+                break;
+            }
         }
+        
        
     })
     .catch(function(error){
