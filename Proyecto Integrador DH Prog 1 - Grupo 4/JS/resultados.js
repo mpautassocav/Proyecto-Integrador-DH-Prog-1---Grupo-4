@@ -9,12 +9,14 @@ window.onload = function (){
     let busqueda = objetoQuery.get('filtro');
     
     fetch('https://cors-anywhere.herokuapp.com/https://api.deezer.com/search?q='+busqueda)
-        .then(function(res){
+        .then(function(respuesta){
             //transformo en json
-            return res.json();
+            return respuesta.json();
         })
-        .then(function(data){
-            console.log(data)
+        .then(function(datos){
+            console.log(datos)
+            let tuBusqueda = document.querySelector("#tuBusqueda")
+            tuBusqueda.innerHTML += `${datos.data.title}`;
         })
         .catch(function(error){
             console.error(error);
