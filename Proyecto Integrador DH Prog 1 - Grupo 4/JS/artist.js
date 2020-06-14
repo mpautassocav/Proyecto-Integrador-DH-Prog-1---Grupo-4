@@ -21,6 +21,28 @@ fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/artist/" + art
         }
         contenedorfans.innerHTML +=  format(datos.nb_fan,"   ") +" Fans";
     })
+fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/artist/" + artistid + "/top?limit=50")
+    .then(function(respuesta){
+        return respuesta.json();
+    })
+    .then(function(datos){
+        console.log(datos)
+        let tracksTitle = datos.data;
+        let contenedortracks = document.querySelector('#ranking_tracks');
+        let contador = 0;
+        for (const trackTitle of tracksTitle) {
+            contenedortracks.innerHTML +=   
+            `<div class="canciones" >
+             <a href="DETAIL-TRACK.html?id=${trackTitle.id}"> <div id="track"> ${trackTitle.title} </div> </a> 
+             <img src="Imagenes/image-solid.svg" height="35px" id="track-image"></div>`
+             contador ++;
+             if (contador == 5){
+                 break;
+             }
+        }
+
+        })
+
     .catch(function(error){
         console.log(error)
     })

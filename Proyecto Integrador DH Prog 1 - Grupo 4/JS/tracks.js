@@ -11,11 +11,13 @@ fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/track/" + trac
         let contenedorname = document.querySelector('.albumName');
         contenedorname.innerHTML +=  `${datos.title}`;
         let contenedorartista = document.querySelector('.artistName');
-        contenedorartista.innerHTML +=  `${datos.artist.name}`;
+        contenedorartista.innerHTML += 
+        `<a href="detailArtist.html?id=${datos.artist.id}">
+        <div class="canciones">${datos.artist.name}</a>`;
         let contenedorimg = document.querySelector('#imageArtist');
         contenedorimg.innerHTML += `<img src="${datos.album.cover}" id="track-image">`;
         let contenedordate = document.querySelector('.genreName');
-        contenedordate.innerHTML += `${datos.album.title}`+" - "+`${datos.album.release_date}`;
+        contenedordate.innerHTML += `${datos.album.title}`+`${datos.album.release_date}`;
         let contenedordur = document.querySelector('.duracion');
         function secondsToString(seconds) {
             var minute = Math.floor((seconds / 60) % 60);

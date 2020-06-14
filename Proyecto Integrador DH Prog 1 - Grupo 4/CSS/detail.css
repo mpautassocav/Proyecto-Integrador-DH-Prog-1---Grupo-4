@@ -201,6 +201,7 @@ a {
 
 .artistName {
     color: #ff004cc4;
+    margin-left: -15px;
 }
 
 .albumName {
@@ -209,6 +210,9 @@ a {
 
 .genreName {
     color: gray;
+}
+.releaseDate {
+    color: #1d1d1f;
 }
 
 
