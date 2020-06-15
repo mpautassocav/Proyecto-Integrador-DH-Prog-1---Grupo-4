@@ -10,14 +10,20 @@ window.onload = function (){
     
     fetch('https://cors-anywhere.herokuapp.com/https://api.deezer.com/search?q='+busqueda)
         .then(function(respuesta){
-            //transformo en json
             return respuesta.json();
         })
         .then(function(datos){
             console.log(datos)
-            let tuBusqueda = document.querySelector("#tuBusqueda")
-            tuBusqueda.innerHTML += `${datos.data.title}`;
-        })
+            let resultados = datos.data;
+            let tuBusqueda = document.querySelector("#tuBusqueda");
+            for (const resultado of resultados) {
+                tuBusqueda.innerHTML +=   
+                `<div class="canciones" >
+                 <a href="DETAIL-TRACK.html?id=${resultado.id}"> <div id="track"> ${resultado.title} </div> </a> 
+                 <img src="Imagenes/image-solid.svg" height="35px" id="track-image"></div>`;
+            }
+
+                })
         .catch(function(error){
             console.error(error);
             return null;
