@@ -19,6 +19,27 @@ fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/album/" + albu
         let contenedorDate = document.querySelector('.releaseDate');
         contenedorDate.innerHTML += `${datos.release_date}`;
     })
+fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/album/" + albumid)
+    .then(function(respuesta){
+        return respuesta.json();
+    })
+    .then(function(datos){
+        console.log(datos)
+        let tracksTitle = datos.tracks.data;
+        let contenedortracks = document.querySelector('#ranking_tracks');
+        let contador = 0;
+        for (const trackTitle of tracksTitle) {
+            contenedortracks.innerHTML +=   
+            `<div class="canciones" >
+             <a href="DETAIL-TRACK.html?id=${trackTitle.id}"> <div id="track"> ${trackTitle.title} </div> </a> 
+             <img src="Imagenes/image-solid.svg" height="35px" id="track-image"></div>`
+             contador ++;
+             if (contador == 5){
+                 break;
+             }
+        }
+
+        })
     .catch(function(error){ 
         console.log(error)
     })

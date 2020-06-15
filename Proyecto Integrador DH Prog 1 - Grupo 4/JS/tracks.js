@@ -17,7 +17,8 @@ fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/track/" + trac
         let contenedorimg = document.querySelector('#imageArtist');
         contenedorimg.innerHTML += `<img src="${datos.album.cover}" id="track-image">`;
         let contenedordate = document.querySelector('.genreName');
-        contenedordate.innerHTML += `${datos.album.title}`+`${datos.album.release_date}`;
+        contenedordate.innerHTML += `<a href="detailAlbum.html?id=${datos.album.id}">
+        <div class="canciones">${datos.album.title}</a>`;
         let contenedordur = document.querySelector('.duracion');
         function secondsToString(seconds) {
             var minute = Math.floor((seconds / 60) % 60);
