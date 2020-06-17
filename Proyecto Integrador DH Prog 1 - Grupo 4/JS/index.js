@@ -181,7 +181,7 @@ fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/chart")
             contenedoralbums.innerHTML += `<a href="detailAlbum.html?id=${album.id}">
             <div class="canciones" >
             <div id="track" class="nuevaplaylist"> ${album.title}</div>
-            <img src="${album.cover}" height="35px" id="track-image"></div></a>`;
+            <img src="${album.cover}" height="50px" id="track-image"></div></a>`;
         }
         let tracks=datos.tracks.data;
         let contenedortracks = document.querySelector('#ranking_tracks');
@@ -189,7 +189,7 @@ fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/chart")
             contenedortracks.innerHTML += `<a href="DETAIL-TRACK.html?id=${track.id}">
             <div class="canciones" >
             <div id="track">${track.title}</div>
-            <img src="Imagenes/music-solid.svg" height="35px" id="track-image">
+            <img src="Imagenes/music-solid.svg" height="50px" id="track-image">
             </div>
             </a>`;
         }
@@ -199,7 +199,7 @@ fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/chart")
             contenedorartists.innerHTML += `<a href="detailArtist.html?id=${artist.id}">
             <div class="canciones" >
             <div id="track">${artist.name}</div>
-            <img src="${artist.picture}" height="35px" id="track-image">
+            <img src="${artist.picture}" height="50px" id="track-image">
             </div></a>`;
         }
     })

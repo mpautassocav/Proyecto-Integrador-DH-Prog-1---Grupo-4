@@ -776,7 +776,7 @@ a {
 
 @media (min-width: 600px){
     .container{
-        margin-top: 20px;
+        margin-top: 230px;
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
@@ -815,7 +815,7 @@ a {
     .fotoalbum{
         display: grid;
         grid-template-columns: 1fr;
-        margin-top: 93px;
+        margin-top: -117px;
     }
     .extra{
         margin-top: -95px;
@@ -855,7 +855,7 @@ a {
         margin-top: 5px;
         width: 80%;
         background-color: rgba(0, 0, 0, 0.048);
-        height: 428px;
+        height: 600px;
         border-radius: 5px;
         grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
         display: none;
@@ -866,7 +866,7 @@ a {
         margin-top: 5px;
         width: 80%;
         background-color: rgba(0, 0, 0, 0.048);
-        height: 428px;
+        height: 600px;
         border-radius: 5px;
         /*display: none;*/
         grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -877,7 +877,7 @@ a {
         margin-top: 5px;
         width: 80%;
         background-color: rgba(0, 0, 0, 0.048);
-        height: 428px;
+        height: 600px;
         border-radius: 5px;
         display: none;
         grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
