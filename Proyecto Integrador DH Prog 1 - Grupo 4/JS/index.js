@@ -111,6 +111,7 @@ function musicasi(){
         plsi.style.display="none";
         artsi.style.display="none";
         plno.style.display="inherit";
+        plno.style.backgroundColor="rgba(0, 0, 0, 0.048)";
         artno.style.display="inherit";
         tracks.style.display="grid";
         playsi.style.display="none";
@@ -157,6 +158,7 @@ function artsi(){
         plsi.style.display="none";
         artsi.style.display="inherit";
         plno.style.display="inherit";
+        plno.style.backgroundColor="rgba(0, 0, 0, 0.048)";
         artno.style.display="none";
         tracks.style.display="none";
         playsi.style.display="none";

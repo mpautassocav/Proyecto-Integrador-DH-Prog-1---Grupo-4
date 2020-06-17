@@ -522,6 +522,7 @@ a {
     display: none;
 }
 #ranking_playlist{
+    display: grid;
     margin-left: auto;
     margin-right: auto;
     margin-top: 5px;
@@ -581,7 +582,7 @@ a {
     display: none;
 }
 .trending{
-    margin-top: -8px;
+    margin-top: 170px;
     margin-bottom: 5px;
     margin-left: auto;
     margin-right: auto;
@@ -621,6 +622,9 @@ a {
     background-color: #ff004cc4;
     display: none;
 }
+.tracksTitle {
+    text-align: center;
+}
 #playlistsi{
     display: grid;
     grid-template-columns: 1fr;
@@ -644,6 +648,7 @@ a {
     display: grid;
     grid-template-columns: 1fr;
     border-radius: 5px;
+    background-color: #ff004cc4;
 }
 #artistno{
     display: grid;
@@ -794,11 +799,13 @@ a {
         display: grid;
         grid-template-columns: 1fr;
     }
+   
     .tocaico{
         text-align: center;
         font-size: 8px;
         margin-top: 205px;
-        color: rgb(78, 78, 78);
+        color: transparent;
+        background-color: transparent;
     }
     .tend{
         margin: auto;
