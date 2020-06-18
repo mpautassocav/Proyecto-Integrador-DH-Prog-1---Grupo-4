@@ -34,7 +34,7 @@ fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/artist/" + art
             contenedortracks.innerHTML +=   
             `<div class="canciones" >
              <a href="DETAIL-TRACK.html?id=${trackTitle.id}"> <div id="track"> ${trackTitle.title} </div> </a> 
-             <img src="${trackTitle.album.cover_small}" height="30px" id="track-image"></div>`
+             <img src="${trackTitle.album.cover_small}" height="35px" id="track-image"></div>`
              contador ++;
              if (contador == 5){
                  break;

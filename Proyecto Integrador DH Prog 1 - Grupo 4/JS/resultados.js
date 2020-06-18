@@ -1,3 +1,4 @@
+let spinner = document.querySelector(".spin");
 window.onload = function (){
     //obtengo el query string
     let queryString = window.location.search
@@ -13,6 +14,7 @@ window.onload = function (){
             return respuesta.json();
         })
         .then(function(datos){
+            spinner.className="spinno"
             console.log(datos)
             let resultados = datos.data;
             let tuBusqueda = document.querySelector("#tuBusqueda");

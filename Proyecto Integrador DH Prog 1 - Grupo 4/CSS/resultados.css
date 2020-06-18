@@ -9,6 +9,17 @@ a {
     text-decoration: none;
     color: black;
 }
+.fotosp{
+    margin: auto;
+}
+.spin{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.spinno{
+    display: none;
+}
 .container {
     margin: auto;
     margin-top: 20px;
@@ -218,12 +229,13 @@ a {
     display: grid;
     grid-template-rows: 1fr 2fr;
     width: 100%;
-    margin-top: 30px;
+    margin-top: 325px;
     color: #6e6e73;
     background-color: #282024;
     font-family: 'Open Sans', sans-serif;
     font-size: 10px;
 }
+
 
 
 .footerp{
@@ -308,12 +320,13 @@ a {
 }
 
 #track{
+    margin-left: 8%;
     margin-top: auto;
     margin-bottom: auto;
 }
 
 #track-image{
-    margin: auto;
+    margin-left: 40%;
 }
 
 #aleatoria {
@@ -376,7 +389,7 @@ a {
         display: grid;
         grid-template-rows: 1fr 2fr;
         width: 100%;
-        margin-top: 90px;
+        margin-top: 412px;
         color: #6e6e73;
         background-color: #282024;
         font-family: 'Open Sans', sans-serif;

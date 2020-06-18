@@ -175,7 +175,7 @@ a {
     margin-left: 10px;
     margin-right: 10px;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     text-align: center;
     color: #ff004cc4;
     font-weight: bold;
@@ -200,7 +200,12 @@ a {
 
 .artistName {
     color: #ff004cc4;
+    
+}
+.artistName2 {
+    color: #ff004cc4;
     margin-left: -15px;
+    
 }
 
 .albumName {

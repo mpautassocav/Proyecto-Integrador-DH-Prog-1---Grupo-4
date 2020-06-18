@@ -187,11 +187,11 @@ a {
 .playButton {
     color: #ff004cc4;
     text-align: center;
-    width: 50%;
+    margin: 20px auto 20px auto;
     border-radius: 4px;
     background-color:  #f0f0f0b0;
-    margin: 14px;
-    margin-left: 100px;
+    height: 15%;
+    width: 90%;
     padding-top: 5px;
     padding-bottom: 5px;
     /*.playButton{font-family: 'Heebo', sans-serif;}*/
@@ -265,6 +265,11 @@ a {
      background-color: black;
      margin: 5px;
      text-align: left;
+ }
+ .repro{
+     margin: auto;
+     background-color: #f0f0f0b0;
+     border-radius: 20px;
  }
  
  .topnav a{display: none;}
@@ -343,4 +348,23 @@ a {
         font-family: 'Open Sans', sans-serif;
         font-size: 10px;
     }
+    .playButton {
+        color: #ff004cc4;
+        text-align: center;
+        margin: 20px auto 20px auto;
+        border-radius: 4px;
+        background-color:  #f0f0f0b0;
+        height: 15%;
+        width: 30%;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        /*.playButton{font-family: 'Heebo', sans-serif;}*/
+    }
+    .repro{
+        margin: auto;
+        width: 30%;
+        background-color: #f0f0f0b0;
+        border-radius: 20px;
+    }
+
 }

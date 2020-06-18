@@ -506,6 +506,7 @@ a {
     border-radius: 5px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    cursor: pointer;
 }
 #iconosranks{
     margin: auto;
@@ -658,7 +659,10 @@ a {
 .rankings{
     width: 100%;
 }
-
+.pepe{
+    width: 35px;
+    height: 35px;
+}
 .tresgru{
     margin-top: 40px;
     margin-bottom: 5px;
@@ -838,7 +842,7 @@ a {
         font-size: 10px;
     }
     .divm{
-        height: 392px;
+        height: 517px;
         box-sizing: border-box;
     }
     #fras{
@@ -881,5 +885,9 @@ a {
         border-radius: 5px;
         display: none;
         grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+    .pepe{
+        width: 50px;
+        height: 50px;
     }
 }
