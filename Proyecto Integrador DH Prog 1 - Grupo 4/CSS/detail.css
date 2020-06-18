@@ -162,6 +162,9 @@ a {
     text-align: left;
     font-size: 16px;
 }
+.locura{
+    margin-left: -15px;
+}
 
 #textArtist a{
     color: #ff004cc4;
@@ -175,6 +178,8 @@ a {
     margin-left: 10px;
     margin-right: 10px;
     display: grid;
+    width: 90%;
+    margin: auto;
     grid-template-columns: 1fr;
     text-align: center;
     color: #ff004cc4;
@@ -184,7 +189,8 @@ a {
 .playButton {
     border-radius: 4px;
     background-color:  #f0f0f0b0;
-    margin: 14px;
+    margin: auto;
+    width: 100%;
     padding-top: 5px;
     padding-bottom: 5px;
     font-family: 'Heebo', sans-serif;
@@ -192,7 +198,8 @@ a {
 .playButton:hover{
     border-radius: 4px;
     background-color:  #d6d6d6b0;
-    margin: 14px;
+    margin: auto;
+    width: 100%;
     padding-top: 5px;
     padding-bottom: 5px;
     font-family: 'Heebo', sans-serif;

@@ -313,7 +313,7 @@ a {
 .canciones{
     margin-top: auto;
     margin-bottom: auto;
-    margin-left: 15px;
+    width: 100%;
     font-family: 'Manrope', sans-serif;
     display: grid;
     grid-template-columns: 5fr 1fr;
@@ -325,9 +325,7 @@ a {
     margin-bottom: auto;
 }
 
-#track-image{
-    margin-left: 40%;
-}
+
 
 #aleatoria {
     color: antiquewhite;
@@ -404,5 +402,33 @@ a {
         height: 350px;
         border-radius: 5px;
         grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+    .canciones{
+        margin-top: auto;
+        margin-bottom: auto;
+        width: 70%;
+        font-family: 'Manrope', sans-serif;
+        display: grid;
+        margin: 10px auto 10px auto;
+        grid-template-columns: 5fr 1fr;
+        background-color: #f0f0f0b0;
+        border-radius: 8px;
+    }
+    .canciones:hover{
+        margin-top: auto;
+        margin-bottom: auto;
+        width: 70%;
+        font-family: 'Manrope', sans-serif;
+        display: grid;
+        margin: 10px auto 10px auto;
+        grid-template-columns: 5fr 1fr;
+        background-color: #b3b3b3b0;
+        border-radius: 8px;
+    }
+    #track-image{
+        margin: auto;
+    }
+    #track{
+        margin-top: 2%;
     }
 }
