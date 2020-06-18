@@ -12,7 +12,7 @@ fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/track/" + trac
         contenedorname.innerHTML +=  `${datos.title}`;
         let contenedorartista = document.querySelector('.artistName');
         contenedorartista.innerHTML += 
-        `<a href="detailArtist.html?id=${datos.artist.id}">
+        `<a href="detailArtist.html?id=${datos.artist.id}" class="artistName">
         <div class="canciones">${datos.artist.name}</a>`;
         let contenedorimg = document.querySelector('#imageArtist');
         contenedorimg.innerHTML += `<img src="${datos.album.cover}" id="track-image">`;

@@ -47,12 +47,7 @@ a {
     z-index: 10;
 }
 .playButton:hover{
-    border-radius: 4px;
-    background-color:  #d6d6d6b0;
-    margin: 14px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    font-family: 'Heebo', sans-serif;
+    opacity: 0.8;
 }
 #global{
     position: fixed;
@@ -190,16 +185,26 @@ a {
 }
 
 .playButton {
+    color: #ff004cc4;
+    text-align: center;
+    width: 50%;
     border-radius: 4px;
     background-color:  #f0f0f0b0;
     margin: 14px;
+    margin-left: 100px;
     padding-top: 5px;
     padding-bottom: 5px;
     /*.playButton{font-family: 'Heebo', sans-serif;}*/
-
+}
+.song {
+    text-align: center;
+    color: #ff004cc4;
 }
 
 .artistName {
+    color: #ff004cc4;
+}
+.cancion {
     color: #ff004cc4;
 }
 
