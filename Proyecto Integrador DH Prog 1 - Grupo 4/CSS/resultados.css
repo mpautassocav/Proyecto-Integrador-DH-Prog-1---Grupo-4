@@ -9,12 +9,6 @@ a {
     text-decoration: none;
     color: black;
 }
-.nombreGenero {
-    font-family: Helvetica, Arial, sans-serif;
-    font-size: 70px;
-    font-weight: bold;
-    color: #ff004cc4;;
-}
 .container {
     margin: auto;
     margin-top: 20px;

@@ -25,7 +25,7 @@ fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/genre/" + genr
         let contador = 0;
         for (const nombreArtist of nombreArtists) {
             contenedorgenreartist.innerHTML += `
-            <div class="canciones" > <a href="detailArtist.html?id=${nombreArtist.id}"><div id="track"> ${nombreArtist.name} </div></a> <img src="Imagenes/image-solid.svg" height="35px" id="track-image"></div>`;
+            <div class="canciones" > <a href="detailArtist.html?id=${nombreArtist.id}"><div id="track"> ${nombreArtist.name} </div></a> <img src="${nombreArtist.picture}" height="35px" id="track-image"></div>`;
             contador ++;
             if (contador == 10){
                 break;

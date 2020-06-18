@@ -20,7 +20,7 @@ window.onload = function (){
                 tuBusqueda.innerHTML +=   
                 `<div class="canciones" >
                  <a href="DETAIL-TRACK.html?id=${resultado.id}"> <div id="track"> ${resultado.title} </div> </a> 
-                 <img src="Imagenes/image-solid.svg" height="35px" id="track-image"></div>`;
+                 <a href="DETAIL-TRACK.html?id=${resultado.id}"> <img src="${resultado.album.cover}" height="45px" id="track-image"></div> </a>`;
             }
 
                 })
