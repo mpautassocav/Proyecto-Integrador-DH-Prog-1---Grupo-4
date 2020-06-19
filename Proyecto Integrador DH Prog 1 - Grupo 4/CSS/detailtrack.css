@@ -199,7 +199,6 @@ a {
     width: 90%;
     padding-top: 5px;
     padding-bottom: 5px;
-    /*.playButton{font-family: 'Heebo', sans-serif;}*/
 }
 .song {
     text-align: center;
@@ -363,7 +362,6 @@ a {
         width: 30%;
         padding-top: 5px;
         padding-bottom: 5px;
-        /*.playButton{font-family: 'Heebo', sans-serif;}*/
     }
     .repro{
         margin: auto;

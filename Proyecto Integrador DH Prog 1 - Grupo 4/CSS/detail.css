@@ -131,7 +131,6 @@ a {
 
 #imageArtist {
     color: white;
-    /*background-image: url(../Imagenes/homebound.jpg);*/
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -142,7 +141,6 @@ a {
 }
 #imageArtistt {
     color: white;
-    /*background-image: url(../Imagenes/canserbero.jpg);*/
     width: 100%;
     background-size: contain;
     background-repeat: no-repeat;
@@ -522,25 +520,3 @@ a {
         font-size: 10px;
     }
 }
-
-/* <div class="header">
-    <a href="Index.html"><div class="logodiv"><img src="Imagenes/Logo.jpg" width="45px" class="logo"></div></a>
-        <div class="botonesdiv">
-            <div class="home" id="botones">
-                <a href="Index.html" title="Inicio"><img src="Imagenes/home-solid.svg" width="20px"></a>
-            </div>
-            <div class="playlist" id="botones">
-                <a href="playlist.html" title="Playlist"><img src="Imagenes/list-ul-solid.svg" width="20px"></a>
-            </div>
-            <div class="generos" id="botones">
-               <a href="" title="Generos"><img src="Imagenes/compact-disc-solid.svg" width="20px"></a>
-            </div> 
-        </div>   
-    </div>
-    <div class="divbusqueda">
-        <div class="busqueda2">
-            <img src="Imagenes/search-solid (1).svg" width="10px" class="lupa">
-            <input type="text" placeholder="Buscar" class="busqueda">
-        </div>
-    </div> 
-*/
