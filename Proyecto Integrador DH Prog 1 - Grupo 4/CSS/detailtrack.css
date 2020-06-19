@@ -15,6 +15,11 @@ a {
 #track-image{
     border-radius: 5px;
 }
+@media(min-width:1000px) {
+    #track-image {
+        margin-left: 350px;
+    }
+}
 .redes{
     background-color: #3b3136;
     width: 50%;

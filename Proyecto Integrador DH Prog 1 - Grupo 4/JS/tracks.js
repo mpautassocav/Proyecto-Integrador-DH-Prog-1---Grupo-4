@@ -27,20 +27,6 @@ fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/track/" + trac
             second = (second < 10)? '0' + second : second;
             return minute + ':' + second;
         }
-        let agregar = document.querySelector('#me-gusta');
-        agregar.onclick = function () {
-            window.localStorage.setItem('meGustan', JSON.stringify(pelisArrayEnLocal));
-            //me traigo las pelis de localStorage
-            let pelisEnLocal = window.localStorage.getItem('meGustan');
-            //transformar a js ese string que esta en localStorage
-            let pelisArrayEnLocal = JSON.parse(pelisEnLocal);
-            // tengo que validar que no tenga nada, y si es asi creo un array desde cero
-            if (!pelisArrayEnLocal) {
-                pelisArrayEnLocal = []
-            }
-            //ahora le guardo la nueva peli
-            pelisArrayEnLocal.push(data);
-        } //NO LOGRAMOS HACERLO FUNCIONAR PARA ARMARLO DE CERO
         var largo = datos.duration
         contenedordur.innerHTML += secondsToString(largo);
         let contenedoraudio = document.querySelector('.audio');
@@ -52,13 +38,15 @@ fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/track/" + trac
 
       let añadir = document.querySelector('#me-gusta')
       añadir.onclick = function () {
+          //me traigo las pelis de localStorage
           let tracksEnLocal = window.localStorage.getItem('track')
+          //transformar a js ese string que esta en localStorage
           let tracksArrayEnLocal = JSON.parse(tracksEnLocal);
-
+         // tengo que validar que no tenga nada, y si es asi creo un array desde cero
           if (!tracksArrayEnLocal){
               tracksArrayEnLocal = []
           }
-
+        //ahora guarda el track
           tracksArrayEnLocal.push(datos)
           window.localStorage.setItem('track', JSON.stringify(tracksArrayEnLocal))
           console.log(tracksEnLocal)

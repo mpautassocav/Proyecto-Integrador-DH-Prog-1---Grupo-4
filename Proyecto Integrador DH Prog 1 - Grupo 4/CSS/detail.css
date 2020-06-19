@@ -185,6 +185,11 @@ a {
     color: #ff004cc4;
     font-weight: bold;
 }
+@media(min-width: 1000px) {
+    .containerPlayShuffle {
+        width: 60%;
+    }
+}
 
 .playButton {
     border-radius: 4px;
@@ -356,6 +361,11 @@ a {
     border-radius: 5px;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }
+@media(min-width: 1000px) {
+    #ranking_tracks {
+        width: 60%;
+    }
+}
 
 #ranking_tracks a{
     text-decoration: none;
@@ -380,6 +390,11 @@ a {
 #track-image{
     margin: auto;
     border-radius: 5px;
+}
+@media(min-width:1000px) {
+    #track-image {
+        margin-left: 350px;
+    }
 }
 
 .header{

@@ -189,7 +189,7 @@ fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/chart")
             contenedortracks.innerHTML += `<a href="DETAIL-TRACK.html?id=${track.id}">
             <div class="canciones" >
             <div id="track">${track.title}</div>
-            <img src="Imagenes/music-solid.svg" id="track-image" class="pepe">
+            <img src="Imagenes/3dots.png" id="track-image" class="pepe">
             </div>
             </a>`;
         }
