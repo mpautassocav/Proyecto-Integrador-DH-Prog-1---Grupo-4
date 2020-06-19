@@ -9,7 +9,7 @@ window.onload = function(){
     //aqui es donde voy a usar la info que vino desde la api
     for(let cancion of canciones){
         //aqui uso las comillas francesas
-        playlistTracks.innerHTML += `<div class="canciones" ><div id="track">${cancion.title}</div><img src="Imagenes/image-solid.svg" height="35px" id="track-image"></div>`;
+        playlistTracks.innerHTML += `<div class="canciones" ><div id="track">${cancion.title}</div><img src="${cancion.album.cover_small}" height="35px" id="track-image"></div>`;
     }
 
     let eliminarTracks = document.querySelector(".eliminar")
