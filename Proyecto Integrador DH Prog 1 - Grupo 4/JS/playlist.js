@@ -1,15 +1,19 @@
-window.addEventListener('load', function () {
+window.onload = function(){
 
     //obtengo las peliculas que me gustan
-    let peliculas = JSON.parse(window.localStorage.getItem('meGustan'))
+    let canciones = JSON.parse(window.localStorage.getItem('cancion'));
 
     //empiezo a mostrar las peliculas
-    let containerPeliculas = document.querySelector('#ranking_tracks');
+    let imprimirCanciones = document.querySelector('#ranking_tracks');
 
     //aqui es donde voy a usar la info que vino desde la api
-    for(let pelicula of peliculas){
+    for(let cancion of canciones){
         //aqui uso las comillas francesas
-        containerPeliculas.innerHTML += `<a href=""><div class="canciones" ><div id="track">${pelicula.title}</div><img src="Imagenes/image-solid.svg" height="35px" id="track-image"></div></a>`;
+        imprimirCanciones.innerHTML += `<div class="canciones" ><div id="track">${cancion.title}</div><img src="Imagenes/image-solid.svg" height="35px" id="track-image"></div>`;
     }
 
-});
+    let eliminarTodo = document.querySelector(".eliminar")
+    eliminarTodo.onclick = function(){
+        localStorage.clear("cancion");
+    }
+}

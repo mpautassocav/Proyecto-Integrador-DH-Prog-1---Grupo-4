@@ -49,6 +49,23 @@ fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/track/" + trac
         <source src="horse.mp3" type="audio/mpeg">
       Your browser does not support the audio element.
       </audio></div>`;
+
+      let añadir = document.querySelector('#me-gusta')
+      añadir.onclick = function () {
+          let cancionesEnLocal = window.localStorage.getItem('cancion')
+          let cancionesArrayEnLocal = JSON.parse(cancionesEnLocal)
+
+          if (!cancionesArrayEnLocal){
+              cancionesArrayEnLocal = []
+          }
+
+          let cancionesPlaylist = [];
+          cancionesArrayEnLocal.push(datos)
+          window.localStorage.setItem('cancion', JSON.stringify(cancionesArrayEnLocal))
+          console.log(cancionesEnLocal)
+          console.log(cancionesArrayEnLocal)
+      }
+
     })
     .catch(function(error){
         console.log(error)
