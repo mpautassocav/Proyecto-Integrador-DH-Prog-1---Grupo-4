@@ -27,8 +27,8 @@ fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/track/" + trac
             second = (second < 10)? '0' + second : second;
             return minute + ':' + second;
         }
-        let boton = document.querySelector('#me-gusta');
-        boton.onclick = function () {
+        let agregar = document.querySelector('#me-gusta');
+        agregar.onclick = function () {
             window.localStorage.setItem('meGustan', JSON.stringify(pelisArrayEnLocal));
             //me traigo las pelis de localStorage
             let pelisEnLocal = window.localStorage.getItem('meGustan');
@@ -52,18 +52,17 @@ fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/track/" + trac
 
       let añadir = document.querySelector('#me-gusta')
       añadir.onclick = function () {
-          let cancionesEnLocal = window.localStorage.getItem('cancion')
-          let cancionesArrayEnLocal = JSON.parse(cancionesEnLocal)
+          let tracksEnLocal = window.localStorage.getItem('track')
+          let tracksArrayEnLocal = JSON.parse(tracksEnLocal);
 
-          if (!cancionesArrayEnLocal){
-              cancionesArrayEnLocal = []
+          if (!tracksArrayEnLocal){
+              tracksArrayEnLocal = []
           }
 
-          let cancionesPlaylist = [];
-          cancionesArrayEnLocal.push(datos)
-          window.localStorage.setItem('cancion', JSON.stringify(cancionesArrayEnLocal))
-          console.log(cancionesEnLocal)
-          console.log(cancionesArrayEnLocal)
+          tracksArrayEnLocal.push(datos)
+          window.localStorage.setItem('track', JSON.stringify(tracksArrayEnLocal))
+          console.log(tracksEnLocal)
+          console.log(tracksArrayEnLocal)
       }
 
     })
